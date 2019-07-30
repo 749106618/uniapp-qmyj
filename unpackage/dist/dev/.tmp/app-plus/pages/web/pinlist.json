@@ -1,0 +1,7 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "拼购",
+  "backgroundColorTop": "#FFFFFF",
+  "onReachBottomDistance": 80,
+  "backgroundColorBottom": "#F8F8F8"
+}

@@ -1,0 +1,2 @@
+<import src="./returnship.vue.wxml" />
+    <template is="42db451c" data="{{ ...$root['0'], $root }}"/>

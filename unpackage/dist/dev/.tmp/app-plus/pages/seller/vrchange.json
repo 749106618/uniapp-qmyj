@@ -1,0 +1,8 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "兑码验证",
+  "navigationBarBackgroundColor": "#ffc107",
+  "navigationBarTextStyle": "white",
+  "backgroundColorTop": "#ffc107",
+  "backgroundColorBottom": "#fffefb"
+}

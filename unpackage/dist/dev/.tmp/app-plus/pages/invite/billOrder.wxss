@@ -1,0 +1,19 @@
+
+.bill-list{padding: 20rpx;}
+.bill-list .li{padding: 20rpx; border-bottom:1px solid  #eee ; background: #FFFFFF;}
+.bill-list .li:nth-child(even){background: #fbfdfb;}
+.bill-list .li .bill-sn{font-size: 28rpx; height: 60rpx; border-bottom: 1px dashed   #eee;}
+.bill-list .li .bill-sn .state{color: #009688;}
+.bill-list .li .goods-info{padding: 20rpx;border-bottom: 1px dashed   #eee;}
+.bill-list .li .goods-info image{width: 100rpx; height: 100rpx;}
+.bill-list .li .goods-info .goods-name{-webkit-box-flex: 1;-webkit-flex: 1;-ms-flex: 1;flex: 1; margin-left: 20rpx; font-size: 28rpx;}
+.bill-list .li .goods-info .goods-name .em{font-size: 26rpx; color: #BBBBBB;}
+.bill-list .li .goods-info .goods-name .em .p{color: #009688;}
+.bill-list .li .price{-webkit-box-flex: 1;-webkit-flex: 1;-ms-flex: 1;flex: 1; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; padding: 20rpx 0; font-size: 28rpx;}
+.bill-list .li .price .tit{font-size: 24rpx; color: #BBBBBB;}
+.bill-list .li .handle-bill{ border-top: 1px dashed   #eee; padding-top: 20rpx;}
+.bill-list .li .handle-bill .batch-price{font-size: 26rpx;
+}
+.bill-list .li .handle-bill .batch-price .em{font-weight: bold; color: #FF0036;}
+.bill-list .li .handle-bill .time{font-size: 24rpx; color: #BBBBBB;}
+

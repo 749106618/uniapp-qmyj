@@ -1,0 +1,22 @@
+
+.pubedit-adv image{width: 100%; height: auto;}
+.pubedit-from{}
+.pubedit-from .list{padding: 20rpx; background: #FFFFFF;}
+.pubedit-from .list .border-top{border-top:1px solid #F8F8F8 ;}
+.pubedit-from .pubedit-input{line-height: 80rpx; width: 100%;}
+.pubedit-from .pubedit-input label{ width: 150rpx; color: #666;}
+.pubedit-from .pubedit-input .inp{-webkit-box-flex: 1;-webkit-flex: 1;-ms-flex: 1;flex: 1; height: 80rpx; line-height: 80rpx;}
+.pubedit-from .pubedit-input .inp.disabled{color: #999;}
+.pubedit-from .pubrate{background: #2CB476; color: #fff; height: 50rpx; border-radius: 50rpx; padding: 0 15rpx; margin:15rpx 0;}
+.pubedit-from .pubedit-input .inp .pic{width: 80rpx; height: 80rpx; position: relative; border: 2rpx solid #FF0000;}
+.pubedit-from .pubedit-input .inp image{width: 80rpx; height: 80rpx;}
+.pubedit-from .pubedit-input .inp .pic .wwi-icon{position: absolute; top: -15rpx; right: -15rpx; background: #FF0000; font-size: 28rpx; color: #fff; border-radius: 100rpx;
+}
+.pubedit-from .pubedit-input .inp .select{font-size: 24rpx;width: 180rpx;  -webkit-box-align: center;  -webkit-align-items: center;  -ms-flex-align: center;  align-items: center;}
+.pubedit-from .pubedit-input .inp .select .wwi-icon-danxuanweixuanzhong{color: #ccc;}
+.pubedit-from .pubedit-input .inp .select .wwi-icon-danxuanxuanzhong{color: #2CB476;}
+.pubedit-from .pubedit-input .upload{width: 120rpx; color: #2CB476;}
+.btn-area{background: #FFFFFF;padding: 20rpx;}
+.btn-area .btn-s{background: #2CB476; color: #FFFFFF;}
+
+

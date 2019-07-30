@@ -1,0 +1,8 @@
+{
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#AC92ED",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "领取红包",
+  "backgroundColorTop": "#AC92ED",
+  "backgroundColorBottom": "#F8F8F8"
+}

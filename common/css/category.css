@@ -1,0 +1,23 @@
+.page-body {display: flex; background: #FFFFFF;}
+.nav {display: flex;width: 100%;}
+.nav-left {width: 30%; background: #F8F8F8;}
+.nav-left-item {height: 90upx;border-right: solid 2upx #FFFFFF;border-bottom: solid 2upx #FFFFFF;font-size: 26upx;display: flex;align-items: center;justify-content: center; background: #F8F8F8; position: relative;}
+.nav-left-item.active:after{content: ""; width: 8upx; height: 20upx; background: #03A9F4; border-radius:5upx ; position: absolute; left: 10upx; top: 35upx;}
+.nav-right {width: 70%;}
+
+.active {color: #03A9F4; background: #FFFFFF;font-size: 28upx; font-weight: bold;}
+.uni-navbar-btn {width: 1.125em !important;}
+.brand-item{    float: left;width: 140upx;margin: 15upx 10upx 0 10upx;overflow: hidden;text-align: left;}
+.brand-item image{width: 100%; margin: 15upx 0; height: 70upx; display: flex;}
+.brand-item .brand-name{font-size: 22upx;line-height: 1em;white-space: nowrap;text-overflow: ellipsis;text-align: center;overflow: hidden;}
+
+/*分类页商品*/
+.module-title{position: relative;width: 100%;text-align: left;margin: 30upx auto 15upx auto;}
+.module-title:before {width: 100%;position: absolute;top: 20upx;left: 0;content: '';height: 1px;background: #f2f2f2;}
+.module-title .module-classname{display: inline-block;position: relative;height: 26upx;line-height:26upx;font-size: 26upx;vertical-align: middle;padding: 0 15upx; background: #FFFFFF; color: #03A9F4;}
+.module-title .module-more{display: block;position: absolute;right: 0;top: 12upx;background: #FFF;padding: 0 15upx 0 10upx;height: 24upx;line-height: 24upx;font-size: 24upx; background: #FFFFFF; color: #858b8e;}
+.nav-right-center{padding: 15upx;}
+.nav-right-item {width: 100%;text-align: center;font-size: 22upx;}
+.nav-right-item image {width: 100upx;height: 100upx;}
+.module-center {width: 100%; display: inline-table;}
+.module-center .module-item{width:160upx; float: left; color: #666e88;}

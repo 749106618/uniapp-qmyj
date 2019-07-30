@@ -1,0 +1,20 @@
+
+page{background: #fffefb;}
+.vrchange-top{height: 640rpx; position: relative;width: 100%; background: #ffc107; display: inline-block;
+}
+.vrchange-top .number-input{background: #ffffff; padding:20rpx; height: 60rpx; line-height: 60rpx; margin: 20rpx 40rpx; -webkit-box-shadow:2px 4px 10px 0px #ad8305; box-shadow:2px 4px 10px 0px #ad8305; font-size: 38rpx; color: #d8d8d8;}
+.vrchange-top .number-input.ok{color: #FF9800; font-size: 48rpx;}
+.vrchange-top .number-box{ margin-left: 40rpx; margin-right: 20rpx; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap;}
+.vrchange-top .number-box .number-i{width: 118rpx; height: 118rpx; margin-right: 20rpx; background: #FFFFFF; margin-bottom: 20rpx;display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-shadow:2px 4px 10px 0px #b7952f; box-shadow:2px 4px 10px 0px #b7952f; border-radius:10rpx; font-size: 34rpx; color: #ffc107;}
+.vrchange-top .number-box .number-i:active{opacity: 0.9;}
+.vrchange-top .number-box .number-i.select-ok{width: 256rpx;background: #ff9800; color: #FFFFFF;}
+.vrchange-top .number-box .number-i.wwi-icon{font-size: 68rpx;}
+.vrchang-goods{padding: 20rpx 40rpx; background: #FFFFFF;}
+.vrchang-goods .hd{font-size: 28rpx;}
+.vrchang-goods .goods-info{position: relative; padding: 20rpx 0; margin-left: 180rpx;}
+.vrchang-goods .goods-info .img{position: absolute; left: -180rpx; width: 160rpx; height: 160rpx; z-index: 8;}
+.vrchang-goods .goods-info .goods-name{font-size: 28rpx; line-height: 40rpx; height: 80rpx; overflow: hidden; margin-bottom: 10rpx;}
+.vrchang-goods .goods-info .goods-spec{font-size: 24rpx; line-height: 24rpx; height: 70rpx; overflow: hidden; color: #999999;}
+.vrchang-goods .goods-msg{font-size: 24rpx; background: #f8f8f8; padding: 5rpx 10rpx;}
+.vrchang-goods .bd{font-size: 36rpx; color: #007aff; text-align: center;}
+

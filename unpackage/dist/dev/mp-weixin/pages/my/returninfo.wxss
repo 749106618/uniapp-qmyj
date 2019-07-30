@@ -1,0 +1,8 @@
+
+page{background: #F8F8F8;}
+.wwi-default-list .li{-webkit-box-orient: horizontal;-webkit-box-direction: normal;-webkit-flex-direction: row;-ms-flex-direction: row;flex-direction: row; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between;}
+.wwi-default-list .li .a{width: auto; -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1;}
+.wwi-default-list .li .right{font-size: 28rpx; margin-right: 20rpx; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: end; -webkit-justify-content: flex-end; -ms-flex-pack: end; justify-content: flex-end; -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1;}
+.wwi-default-list .li .right .img{width: 100rpx; height: 100rpx; margin-right: 20rpx;}
+.wwiapp-default-list-tit{padding: 20rpx; font-size: 32rpx;}
+

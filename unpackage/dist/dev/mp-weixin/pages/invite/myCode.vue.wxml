@@ -1,0 +1,1 @@
+<template name="c0d3057c"><view class="_view Mc0d3057c"><view class="_view Mc0d3057c code-info flex flexcol flexJcc flexAic"><view class="_view Mc0d3057c image"><image src="{{img}}" mode class="_image Mc0d3057c"></image></view><view class="_view Mc0d3057c">长按上面的二维码，点击识别图中二维码</view><view class="_view Mc0d3057c">或打开微信扫描图中二维码</view></view></view></template>

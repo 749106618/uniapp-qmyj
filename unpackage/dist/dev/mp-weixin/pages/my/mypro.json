@@ -1,0 +1,9 @@
+{
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#ED5564",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "我的资产",
+  "enablePullDownRefresh": true,
+  "backgroundColorTop": "#ED5564",
+  "backgroundColorBottom": "#F8F8F8"
+}

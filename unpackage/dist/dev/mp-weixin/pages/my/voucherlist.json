@@ -1,0 +1,10 @@
+{
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#FB6E52",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "店铺代金券",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 80,
+  "backgroundColorTop": "#FB6E52",
+  "backgroundColorBottom": "#F8F8F8"
+}

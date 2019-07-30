@@ -1,0 +1,2 @@
+<import src="./pdcashinfo.vue.wxml" />
+    <template is="5b26465b" data="{{ ...$root['0'], $root }}"/>

@@ -1,0 +1,8 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "推广中心",
+  "backgroundColorTop": "#2f303c",
+  "backgroundColorBottom": "#F8F8F8",
+  "navigationBarBackgroundColor": "#2f303c",
+  "navigationBarTextStyle": "white"
+}

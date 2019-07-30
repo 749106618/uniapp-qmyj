@@ -1,0 +1,9 @@
+{
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#F8F8F8",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 80,
+  "navigationBarTitleText": "兑换记录",
+  "backgroundColorTop": "#F8F8F8",
+  "backgroundColorBottom": "#F8F8F8"
+}

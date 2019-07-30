@@ -1,0 +1,20 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "必抢清单",
+  "onReachBottomDistance": 80,
+  "enablePullDownRefresh": true,
+  "navigationBarBackgroundColor": "#F8F8F8",
+  "backgroundColorTop": "#F8F8F8",
+  "backgroundColorBottom": "#F8F8F8",
+  "pullToRefresh": {
+    "color": "#888888",
+    "type": "default"
+  },
+  "titleNView": {
+    "buttons": [
+      {
+        "type": "menu"
+      }
+    ]
+  }
+}

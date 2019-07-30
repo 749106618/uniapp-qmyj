@@ -1,0 +1,2 @@
+<import src="./pdrlist.vue.wxml" />
+    <template is="38558256" data="{{ ...$root['0'], $root }}"/>

@@ -1,0 +1,14 @@
+{
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#EC87BF",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "我的充值卡",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 80,
+  "backgroundColorTop": "#EC87BF",
+  "backgroundColorBottom": "#F8F8F8",
+  "pullToRefresh": {
+    "type": "default",
+    "color": "#EFEFEF"
+  }
+}

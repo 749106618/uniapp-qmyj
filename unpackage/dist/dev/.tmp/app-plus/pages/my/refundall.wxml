@@ -1,0 +1,2 @@
+<import src="./refundall.vue.wxml" />
+    <template is="c38edf3a" data="{{ ...$root['0'], $root }}"/>

@@ -1,0 +1,20 @@
+
+.select-city{height: 40px; background: #e91e63; color: #FFFFFF; padding: 10px; box-sizing: border-box;}
+.select-city .nowcent{font-size: 12px;}
+.select-city .ss{font-size: 14px;}
+.store-list{width: 100%; height: calc(100% - 80px); flex: 1;}
+.bottom{height: 40px; background: #e91e63; padding:0 0.5em; box-sizing: border-box;align-items: center;}
+.bottom input{background: #FFFFFF; flex: 1; font-size: 0.65em; height: 1.7em;}
+
+.bottom .btn{font-size: 0.65em; display: flex; justify-content: center; align-items: center; color: #FFFFFF; margin-left: 0.8em;}
+.store-list .item{background: #FFFFFF; margin-bottom: 20upx;}
+.store-list .item .hd{padding: 20upx; border-bottom: 2upx solid #eee;}
+.store-list .item .hd image{width: 5em; height: 5em;}
+.store-list .item .hd .info{flex: 1; padding: 0.5em;}
+.store-list .item .hd .info .tp{font-size: 0.9em; font-weight: bold;}
+.store-list .item .hd .info .bp{font-size: 0.7em; color: #777;}
+.store-list .item .hd .btn{border:0.05em solid #eee ; height: 1.85em; padding:0 0.5em; font-size: 0.8em; border-radius:0.5em ; display: flex; align-items: center; justify-content: center; color: #777;}
+.store-list .item .bd{padding: 20upx 0;}
+.store-list .item .bd .li{width: 187.5upx; display: flex; flex-direction: column; align-items: center; justify-content: center;}
+.store-list .item .bd .li image{width: 4em; height: 4em; margin: 20upx auto;}
+.store-list .item .bd .li .price{color: #FF0036; font-size: 0.7em;}

@@ -1,0 +1,2 @@
+setCssToHead(["body{background: #FFFFFF;}\n.",[1],"pdadd-input{padding: ",[0,20],";}\n.",[1],"pdadd-input .",[1],"dt{font-size: ",[0,48],";}\n.",[1],"pdadd-input .",[1],"dd{margin-left: ",[0,20],";}\n.",[1],"pdadd-input .",[1],"dd wx-input{font-size: ",[0,42],";}\n",],undefined,{path:"./pages/my/pdadd.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/my/pdadd.wxml') } }));

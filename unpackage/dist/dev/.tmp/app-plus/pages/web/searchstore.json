@@ -1,0 +1,9 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "店铺街",
+  "navigationBarBackgroundColor": "#03a9f4",
+  "navigationBarTextStyle": "white",
+  "backgroundColorTop": "#03a9f4",
+  "backgroundColorBottom": "#F8F8F8",
+  "bounce": "none"
+}

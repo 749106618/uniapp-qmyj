@@ -1,0 +1,28 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "商家中心",
+  "backgroundColorTop": "#00BCD4",
+  "backgroundColorBottom": "#F8F8F8",
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#00BCD4",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "",
+        "fontSrc": "static/wwi.ttf",
+        "fontSize": "30"
+      },
+      {
+        "text": "",
+        "fontSrc": "static/wwi.ttf",
+        "fontSize": "30"
+      },
+      {
+        "text": "切换至买家",
+        "fontSize": "16px",
+        "width": "80px",
+        "float": "left"
+      }
+    ]
+  }
+}

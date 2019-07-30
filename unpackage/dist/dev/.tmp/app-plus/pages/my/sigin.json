@@ -1,0 +1,9 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "签到",
+  "navigationBarBackgroundColor": "#ff9800",
+  "navigationBarTextStyle": "white",
+  "onReachBottomDistance": 80,
+  "backgroundColorTop": "#ff9800",
+  "backgroundColorBottom": "#F8F8F8"
+}

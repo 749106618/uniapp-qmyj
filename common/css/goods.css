@@ -1,0 +1,96 @@
+/*列表模式*/
+.list .goods-secrch-list { width: 100%; }
+.list .goods-secrch-list  .a { color: #111;}
+.list .goods-secrch-list .goods-item {display: flex; flex-wrap: wrap; background-color: #FFF; clear: both; position: relative; z-index: auot;}
+/*商品图片*/
+.list .goods-secrch-list .goods-pic { width: 240upx; height: 240upx;}
+.list .goods-secrch-list .goods-pic .a { width: 100%; height: 100%; display: flex; justify-content: center;align-items: center;}
+.list .goods-secrch-list .goods-pic image { width: 200upx; height: 200upx;}
+/*右侧商品介绍*/
+.list .goods-secrch-list .goods-info { flex: 1; height: 240upx; padding-top: 20upx; margin-right: 20upx; overflow: hidden; border-bottom: solid 2upx #EEE; box-sizing: border-box;}
+/*商品名称*/
+.list .goods-secrch-list .goods-name {height: 110upx; width: 100%; overflow: hidden; }
+.list .goods-secrch-list .goods-name .a{display: flex; width: 100%; flex-wrap: wrap;}
+.list .goods-secrch-list .goods-name .h4 { font-size: 28upx; line-height: 36upx; height: 72upx; overflow: hidden;}
+.list .goods-secrch-list .goods-name .h6 { font-size: 24upx; color: #999; line-height: 36upx; height: 36upx; white-space: nowrap; text-overflow: ellipsis; overflow: hidden;}
+/*商品价格与促销*/
+.list .goods-secrch-list .goods-sale { display: block; height: 40upx; padding: 10upx 0; overflow: hidden;}
+.list .goods-secrch-list .goods-price { color: #EC5464; font-size: 26upx; line-height: 40upx; display: block; float: left;}
+.list .goods-secrch-list .goods-price .em { font-size: 32upx; line-height: 40upx; vertical-align: top; display: inline-block;}
+.list .goods-secrch-list .goods-price .phone-sale { font-size: 20upx; line-height: 24upx; vertical-align: top; display: inline-block; height:24upx; padding-right: 4upx; margin-top: 2upx; border: solid #EC5464 2upx; }
+.list .goods-secrch-list .goods-price .phone-sale .wwi-icon { vertical-align: middle; margin-right: 4upx; width: 24upx; height: 24upx; font-size: 20upx;}
+.list .goods-secrch-list .sale-type { float: right; width: 28upx; height: 28upx; margin: 0 0 0 4upx; vertical-align: top; text-align: center;font-size: 20upx; color: #FFF; line-height: 28upx; background-color: #EC5464; border-radius: 4upx;}
+/*商品相关信息*/
+.list .goods-secrch-list .goods-assist { display: flex; flex-wrap: wrap; height: 40upx; padding-bottom: 8upx; overflow: hidden;}
+.list .goods-secrch-list .goods-sold { font-size: 24upx; line-height: 40upx; color: #999; width: 40%; height: 40upx;}
+.list .goods-secrch-list .goods-sold .em { color: #000; font-weight: 600;}
+.list .goods-secrch-list .goods-store { font-size: 24upx; line-height: 40upx; text-align: right; height: 40upx; flex: 1;}
+.list .goods-secrch-list .goods-store .mall { display: inline-flex; padding: 0 4upx; font-size: 24upx; line-height: 28upx; color: #FFF; color: #EC5464;}
+.list .goods-secrch-list .goods-store .i {font-size: 24upx; color: #888888;}
+
+.list .goods-secrch-list .sotre-creidt-layout { position: absolute; z-index: 2; top: 0; right: 0; left: 0; bottom: 0;}
+.list .goods-secrch-list .sotre-creidt-layout p { width: 5.38rem; height: 5.38rem; position: absolute; z-index: 1; left: 0; top: 0;}
+.list .goods-secrch-list .sotre-creidt-layout .dl { background-color: #F5F5F5; height: 208upx; padding: 16upx; margin-left: 240upx; }
+
+/*店铺列表使用特殊样式*/
+
+.sotre-favorites-layout { position: absolute; z-index: 1; top: 0; right: 0; left: 0; bottom: 0; display: none;}
+.sotre-favorites-layout .sotre-favorites-bg { position: relative; z-index: 1; width: 100%; height: 100%; filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#E5FFFFFF', endColorstr='#E5FFFFFF');background:rgba(255,255,255,0.9); border: solid 0.05rem #EEE;}
+.sotre-favorites-layout .add { position: absolute; z-index: 1; top: 50%; left: 50%; display: block; width: 3rem; height: 3rem; margin: -1.5rem 0 0 -1.5rem;}
+.sotre-favorites-layout .add i { display: block; width: 1.9rem; height: 1.9rem; margin: 0 auto 0.1rem auto;  background-position: 50% 50%; background-repeat: no-repeat; background-size: 65%; border: solid 0.075rem #000; border-radius: 100%; opacity: 0.75;}
+.sotre-favorites-layout .add h5 { display: block; height: 1rem; text-align: center; font-size: 0.6rem; line-height: 1rem; color: #000;}
+.sotre-favorites-layout .add.added { display: none;}
+.sotre-favorites-layout .add.added i {  border-color: #ED5564; opacity: 1;}
+.mall_search{ width: 100%;  background-repeat: no-repeat; background-position: 50% 50%; background-size: 100%; opacity: 0.60;}
+
+/*大图模式*/
+.grid .goods-secrch-list { font-size: 0; display: flex; flex-wrap: wrap; width: 100%; flex-direction: row;}
+.grid .goods-secrch-list .goods-item { background-color: #FFF; display: flex; margin-bottom: 10upx; box-shadow: 0 2upx 0 rgba(0,0,0,0.05); position: relative; z-index: 1; overflow: hidden;flex-direction: column; width: 49.25%; box-sizing: border-box;}
+.grid .goods-secrch-list .goods-item:nth-of-type(even) { margin-left: 1.5%;}
+/*商品图片*/
+.grid .goods-secrch-list .goods-pic {width: 100%; height: 100%;}
+.grid .goods-secrch-list .goods-pic .a {width: 100%; height: 100%;display: flex; justify-content: center;align-items: center;}
+.grid .goods-secrch-list .goods-pic image { width: 370upx; height: 370upx; }
+/*下方商品介绍*/
+.grid .goods-secrch-list .goods-info { display: block; padding: 0 20upx;}
+/*商品名称*/
+
+.grid .goods-secrch-list .goods-name {height: 116upx; width: 100%; overflow: hidden; }
+.grid .goods-secrch-list .goods-name .a{display: flex; width: 100%; flex-wrap: wrap;}
+.grid .goods-secrch-list .goods-name .h4 { font-size: 28upx; line-height: 36upx; height: 72upx; display: -webkit-box;  overflow: hidden;  color: #333;   text-overflow: ellipsis;  -webkit-line-clamp: 2; -webkit-box-orient: vertical; word-break: break-all; margin: 8upx 0;}
+.grid .goods-secrch-list .goods-name .h6 { font-size: 24upx; color: #999; line-height: 36upx; height: 36upx; white-space: nowrap; text-overflow: ellipsis; overflow: hidden;}
+/*商品价格与促销*/
+.grid .goods-secrch-list .goods-sale { display: block; height: 40upx; padding: 10upx 0; overflow: hidden;}
+.grid .goods-secrch-list .goods-price { color: #EC5464; font-size: 26upx; line-height: 40upx; display: block; float: left;}
+.grid .goods-secrch-list .goods-price .em { font-size: 36upx; line-height: 40upx; vertical-align: top; display: inline-block;}
+.grid .goods-secrch-list .goods-price .phone-sale { font-size: 20upx; line-height: 24upx; vertical-align: top; display: inline-block; height:24upx; padding-right: 4upx; margin-top: 2upx; border: solid #EC5464 2upx; }
+.grid .goods-secrch-list .goods-price .phone-sale .wwi-icon { vertical-align: middle; margin-right: 4upx; width: 24upx; height: 24upx; font-size: 20upx;}
+.grid .goods-secrch-list .sale-type {  display: none;}
+/*商品相关信息*/
+.grid .goods-secrch-list .goods-assist { display: flex; flex-wrap: wrap; height: 40upx; padding-bottom: 8upx; overflow: hidden;}
+.grid .goods-secrch-list .goods-sold { font-size: 24upx; line-height: 40upx; color: #999; width: 40%; height: 40upx;}
+.grid .goods-secrch-list .goods-sold .em { color: #000;font-weight: 600;}
+.grid .goods-secrch-list .goods-store { font-size: 24upx; line-height: 40upx; text-align: right; height: 40upx; flex: 1;}
+.grid .goods-secrch-list .goods-store .mall {  display: inline-flex; padding: 0 4upx; font-size: 24upx; line-height: 28upx; color: #FFF; color: #EC5464;}
+.grid .goods-secrch-list .goods-store a { font-size: 0; color: #888;}
+.grid .goods-secrch-list .goods-store .i {font-size: 24upx; color: #888888;}
+.grid .goods-secrch-list .store-credit { display: none;}
+.grid .goods-secrch-list .sotre-creidt-layout { position: absolute; z-index: 2; top: 0; right: 0; left: 0; bottom: 0;}
+.grid .goods-secrch-list .sotre-creidt-layout .dl { filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#F2EEEEEE', endColorstr='#F2EEEEEE');background:rgba(238,238,238,0.95); width: 90%; height: 250upx; padding: 5%; position: absolute; z-index: inherit; bottom: 0;}
+
+/*商品收藏列表删除*/
+.fav-list .goods-name { height: 90upx !important; }
+.grid .goods-secrch-list .fav-del { position: absolute; z-index: 1; bottom: 10upx; right: 10upx; width: 40upx; height: 40upx;font-size: 42upx;}
+
+
+.goods-secrch-list .sotre-creidt-layout .dt { text-align: left; display: block; line-height: 40upx; height: 40upx; padding-bottom: 8upx; margin-bottom: 8upx; border-bottom: solid 2upx #EEE; position: relative; z-index: 1;}
+.goods-secrch-list .sotre-creidt-layout .dt .wwi-icon { position: absolute; z-index: 1; top: 0; right: 0; width: 40upx; height: 40upx; opacity: 0.6; }
+.goods-secrch-list .sotre-creidt-layout .dd { font-size: 22upx; color: #555; line-height: 40upx; text-align: left; height: 40upx;}
+.goods-secrch-list .sotre-creidt-layout .dd .em { font-size: 24upx; font-weight: 600;}
+.goods-secrch-list .sotre-creidt-layout .dd.high .wwi-icon,.goods-secrch-list .sotre-creidt-layout .dd.high .em { color: #ED5564;}
+.goods-secrch-list .sotre-creidt-layout .dd.equal .wwi-icon,.goods-secrch-list .sotre-creidt-layout .dd.equal .em { color: #ED5564;}
+.goods-secrch-list .sotre-creidt-layout .dd.low .wwi-icon,.goods-secrch-list .sotre-creidt-layout .dd.low .em { color: #48CFAE;}
+
+/*引用icon**/
+.wwi-icon-jiantou_yemian_xiangshang:before { content: "\eb65"; }
+.wwi-icon-shanchu:before { content: "\eb41"; }

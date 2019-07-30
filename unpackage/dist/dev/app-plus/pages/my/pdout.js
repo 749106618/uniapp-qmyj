@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"input-group{padding: ",[0,20],"; margin: 0;}\n.",[1],"input-row .",[1],"title {width: ",[0,200],";padding-left: ",[0,20],";}\n.",[1],"input-row wx-input { width: ",[0,470],";}\n.",[1],"input-row wx-input.",[1],"code { width: ",[0,260],";}\n",],undefined,{path:"./pages/my/pdout.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/my/pdout.wxml') } }));

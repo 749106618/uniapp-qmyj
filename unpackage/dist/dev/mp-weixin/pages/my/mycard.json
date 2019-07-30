@@ -1,0 +1,8 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "我的卡券",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 80,
+  "backgroundColorTop": "#F8F8F8",
+  "backgroundColorBottom": "#F8F8F8"
+}

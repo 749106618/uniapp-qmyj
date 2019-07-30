@@ -1,0 +1,13 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "我的足迹",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 80,
+  "backgroundColor": "#FFFFFF",
+  "backgroundColorTop": "#FFFFFF",
+  "backgroundColorBottom": "#FFFFFF",
+  "pullToRefresh": {
+    "type": "default",
+    "color": "#888888"
+  }
+}

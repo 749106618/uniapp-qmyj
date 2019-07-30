@@ -1,0 +1,10 @@
+{
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#AC92ED",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "我的红包",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 80,
+  "backgroundColorTop": "#AC92ED",
+  "backgroundColorBottom": "#F8F8F8"
+}

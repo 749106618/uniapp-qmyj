@@ -1,0 +1,219 @@
+{
+    "name" : "河南千盟",
+    "appid" : "__UNI__F608DB1",
+    "description" : "ShopWWI.com",
+    "versionName" : "1.0.0",
+    "versionCode" : "100",
+    "transformPx" : false,
+    "app-plus" : {
+        /* 5+App特有相关 */
+        "splashscreen" : {
+            "alwaysShowBeforeRender" : true,
+            "waiting" : true,
+            "autoclose" : true,
+            "delay" : 0
+        },
+        "modules" : {
+            "OAuth" : {},
+            "Payment" : {},
+            "Share" : {},
+            "Maps" : {},
+            "Speech" : {},
+            "VideoPlayer" : {},
+            "Push" : {}
+        },
+        /* 模块配置 */
+        "distribute" : {
+            /* 应用发布信息 */
+            "android" : {
+                /* android打包配置 */
+                "permissions" : [
+                    "<uses-feature android:name=\"android.hardware.camera\"/>",
+                    "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_MOCK_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CALL_PHONE\"/>",
+                    "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+                    "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+                    "<uses-permission android:name=\"android.permission.GET_TASKS\"/>",
+                    "<uses-permission android:name=\"android.permission.INTERNET\"/>",
+                    "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",
+                    "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_CONTACTS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.RECEIVE_BOOT_COMPLETED\"/>",
+                    "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
+                    "<uses-permission android:name=\"android.permission.SYSTEM_ALERT_WINDOW\"/>",
+                    "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+                    "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_CONTACTS\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_SMS\"/>",
+                    "<uses-permission android:name=\"android.permission.RECEIVE_USER_PRESENT\"/>"
+                ]
+            },
+            "ios" : {
+                "privacyDescription" : {
+                    "NSCameraUsageDescription" : "拍照，扫描二维码",
+                    "NSMicrophoneUsageDescription" : "语音识别",
+                    "NSLocationWhenInUseUsageDescription" : "业务需求",
+                    "NSPhotoLibraryUsageDescription" : "更好的使用本系统",
+                    "NSPhotoLibraryAddUsageDescription" : "更好的使用本系统",
+                    "NSLocationAlwaysUsageDescription" : "业务需求",
+                    "NSLocationAlwaysAndWhenInUseUsageDescription" : "业务需求",
+                    "NSSpeechRecognitionUsageDescription" : "业务需求",
+                    "NSRemindersUsageDescription" : "业务需求"
+                },
+                "idfa" : false
+            },
+            /* ios打包配置 */
+            "sdkConfigs" : {
+                "oauth" : {
+                    "weixin" : {
+                        "appid" : "wx2edde70832d1e30c",
+                        "appsecret" : "438717412ee15690f176856e1a20c8e0"
+                    },
+                    "qq" : {
+                        "appid" : "1104949135"
+                    },
+                    "sina" : {
+                        "appkey" : "1572851032",
+                        "appsecret" : "cc97c0594376680b31c1bf71e210839a",
+                        "redirect_uri" : "https://demo.shopwwi.com/data/resource/api/sina/return_url.php"
+                    }
+                },
+                "push" : {
+                    "unipush" : {}
+                },
+                "payment" : {
+                    "alipay" : {},
+                    "weixin" : {
+                        "appid" : "wx2edde70832d1e30c"
+                    }
+                },
+                "speech" : {
+                    "ifly" : {}
+                },
+                "share" : {
+                    "weixin" : {
+                        "appid" : "wx2edde70832d1e30c",
+                        "appsecret" : "438717412ee15690f176856e1a20c8e0"
+                    },
+                    "sina" : {
+                        "appkey" : "1572851032",
+                        "appsecret" : "cc97c0594376680b31c1bf71e210839a",
+                        "redirect_uri" : "https://demo.shopwwi.com/data/resource/api/sina/return_url.php"
+                    },
+                    "qq" : {
+                        "appid" : "1104949135"
+                    }
+                }
+            },
+            "icons" : {
+                "ios" : {
+                    "appstore" : "",
+                    "ipad" : {
+                        "app" : "",
+                        "app@2x" : "",
+                        "notification" : "",
+                        "notification@2x" : "",
+                        "proapp@2x" : "",
+                        "settings" : "",
+                        "settings@2x" : "",
+                        "spotlight" : "",
+                        "spotlight@2x" : ""
+                    },
+                    "iphone" : {
+                        "app@2x" : "",
+                        "app@3x" : "",
+                        "notification@2x" : "",
+                        "notification@3x" : "",
+                        "settings@2x" : "",
+                        "settings@3x" : "",
+                        "spotlight@2x" : "",
+                        "spotlight@3x" : ""
+                    }
+                },
+                "android" : {
+                    "hdpi" : "",
+                    "ldpi" : "unpackage/res/icons/48x48.png",
+                    "mdpi" : "unpackage/res/icons/48x48.png",
+                    "xhdpi" : "",
+                    "xxhdpi" : "",
+                    "xxxhdpi" : ""
+                }
+            },
+            "splashscreen" : {
+                "ios" : {
+                    "iphone" : {
+                        "retina40" : "",
+                        "retina40l" : "",
+                        "retina47" : "",
+                        "retina47l" : "",
+                        "retina55" : "",
+                        "retina55l" : "",
+                        "iphonex" : "",
+                        "iphonexl" : "",
+                        "portrait-896h@2x" : "",
+                        "landscape-896h@2x" : "",
+                        "portrait-896h@3x" : "",
+                        "landscape-896h@3x" : "",
+                        "retina35" : ""
+                    },
+                    "ipad" : {
+                        "portrait-1366h@2x" : "",
+                        "landscape-1366h@2x" : "",
+                        "landscape-1194h@2x" : "",
+                        "portrait-1194h@2" : "",
+                        "landscape-1112h@2x" : "",
+                        "portrait-1112h@2x" : "",
+                        "landscape-retina7" : "",
+                        "portrait-retina7" : "",
+                        "portrait7" : "",
+                        "landscape7" : ""
+                    }
+                },
+                "android" : {
+                    "hdpi" : "",
+                    "xhdpi" : "",
+                    "xxhdpi" : ""
+                }
+            }
+        },
+        "usingComponents" : false
+    },
+    /* SDK配置 */
+    "quickapp" : {},
+    /* 快应用特有相关 */
+    "mp-weixin" : {
+        /* 小程序特有相关 */
+        "appid" : "wx63ce9ce34950cc0a",
+        "setting" : {
+            "urlCheck" : false
+        },
+        "permission" : {
+            "scope.userLocation" : {
+                "desc" : "方便你更好的使用"
+            }
+        }
+    },
+    "h5" : {
+        "title" : "大舜超市",
+        "router" : {
+            "base" : "/m/",
+            "mode" : "history"
+        },
+        "devServer" : {
+            "https" : false
+        },
+        "template" : ""
+    }
+}

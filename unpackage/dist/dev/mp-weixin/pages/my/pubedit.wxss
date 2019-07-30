@@ -1,0 +1,18 @@
+
+.pubedit-adv image{width: 100%; height: auto;}
+.pubedit-from{}
+.pubedit-from .list{padding: 20rpx; background: #FFFFFF;}
+.pubedit-from .list .border-top{border-top:1px solid #F8F8F8 ;}
+.pubedit-from .pubedit-input{line-height: 80rpx;}
+.pubedit-from .pubedit-input label{ width: 150rpx; color: #666;}
+.pubedit-from .pubedit-input .inp{-webkit-box-flex: 1;-webkit-flex: 1;-ms-flex: 1;flex: 1; height: 80rpx; line-height: 80rpx;}
+.pubedit-from .pubedit-input .inp.disabled{color: #999;}
+.pubedit-from .pubedit-input .inp .file{width: 80rpx; height: 80rpx; position: relative; border: 2rpx solid #FF0000; vertical-align: middle; margin-right:30rpx;}
+.pubedit-from .pubedit-input .inp image{width: 80rpx; height: 80rpx;}
+.pubedit-from .pubedit-input .inp .file .wwi-icon-guanbi{position: absolute; top: -15rpx; right: -15rpx; background: #FF0000; font-size: 28rpx; color: #fff; border-radius: 100rpx;
+}
+.pubedit-from .pubedit-input .upload{width: 120rpx; color: #2CB476;}
+.btn-area{background: #FFFFFF;padding: 20rpx;}
+.btn-area .btn-s{background: #2CB476; color: #FFFFFF;}
+
+

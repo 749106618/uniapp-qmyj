@@ -1,0 +1,2 @@
+setCssToHead(["body{background-color: #f8f8f8;}\n.",[1],"wwiapp-log-list{border-radius:",[0,20]," ",[0,20]," 0 0;}\n",],undefined,{path:"./pages/my/rechargecardlist.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/my/rechargecardlist.wxml') } }));

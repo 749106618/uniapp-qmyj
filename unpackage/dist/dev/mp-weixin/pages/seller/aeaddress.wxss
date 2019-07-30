@@ -1,0 +1,7 @@
+
+page{background-color: #F8F8F8;}
+.input-row .title {width: 200rpx;}
+.input-row input {	width: 470rpx;}
+.input-row input.code {	width: 260rpx;}
+.input-row .city-input{-webkit-box-flex: 1;-webkit-flex: 1;-ms-flex: 1;flex: 1; font-size: 28rpx;}
+

@@ -1,0 +1,2 @@
+<import src="./spikelist.vue.wxml" />
+    <template is="4521626c" data="{{ ...$root['0'], $root }}"/>

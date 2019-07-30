@@ -1,0 +1,33 @@
+
+page{background: #fff;}
+.tradinfo-hd{background: #61cf9c; padding: 20rpx;}
+.tradinfo-hd .publish{font-size: 28rpx; height: 80rpx; font-weight: bold; color: #fff;}
+.tradinfo-hd .tradinfo-info{background: #fff; padding: 20rpx; border-radius: 20rpx;}
+.tradinfo-hd .tradinfo-info .hd{padding-bottom: 20rpx; border-bottom: 1px solid #61cf9c;}
+.tradinfo-hd .tradinfo-info .hd .user-logo{width: 50rpx; height: 50rpx; border-radius: 50rpx;}
+.tradinfo-hd .tradinfo-info .hd .user-name{font-size: 28rpx; line-height: 50rpx; margin-left: 20rpx; color: #666;}
+.tradinfo-hd .tradinfo-info .hd .msg{border: 1px solid #61cf9c; font-size: 26rpx; color: #61cf9c; padding: 5rpx 15rpx; border-radius: 15rpx;}
+.tradinfo-hd .tradinfo-info .hd .msg .wwi-icon{}
+.tradinfo-hd .tradinfo-info .bd{padding: 20rpx 0;}
+.tradinfo-hd .tradinfo-info .bd .title{font-size: 32rpx;line-height: 38rpx;max-height: 76rpx;overflow: hidden;-o-text-overflow: ellipsis;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;white-space: normal; font-weight: bold;}
+.tradinfo-hd .tradinfo-info .bd .tips{padding: 20rpx 0;}
+.tradinfo-hd .tradinfo-info .bd .tips .project-state{font-size: 24rpx; font-weight: bold;  margin-bottom: 10rpx; padding: 0 10rpx; color: #fff; background: #2cb476; height: 50rpx; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; border-radius: 25rpx;}
+.tradinfo-hd .tradinfo-info .bd .tips .project-state .wwi-icon{color: #fff; font-size: 34rpx; margin-right: 10rpx;}
+.tradinfo-hd .tradinfo-info .bd .tips .span{margin-left: 20rpx; color: #a6a6a6;}
+.tradinfo-hd .tradinfo-info .bd .tips .span .num{font-weight: bold; color: #2CB476;}
+.tradinfo-hd .tradinfo-info .bd .info{color: #666;}
+.tradinfo-hd .tradinfo-info .bd .enclosure{padding-top: 20rpx;}
+.tradinfo-hd .tradinfo-info .bd .enclosure .title{font-size: 28rpx;}
+.tradinfo-bd{padding:20rpx 40rpx;}
+.tradinfo-bd .tab{font-size: 28rpx; height: 100rpx; border-bottom: 1px solid #F8F8F8; font-weight: bold;}
+.tradinfo-bd .tab .span{-webkit-box-flex: 1;-webkit-flex: 1;-ms-flex: 1;flex: 1; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; border-bottom: 4rpx solid transparent;}
+.tradinfo-bd .tab .span.ok{border-color: #2CB476; color: #2CB476;}
+.tradinfo-bd .list .li{padding: 20rpx 0;  border-bottom: 1px solid #F8F8F8;
+}
+.tradinfo-bd .list .li .img{width: 80rpx; height: 80rpx; border-radius: 80rpx;}
+.tradinfo-bd .list .li .s-info{-webkit-box-flex: 1;-webkit-flex: 1;-ms-flex: 1;flex: 1; margin:0 15rpx;}
+.tradinfo-bd .list .li .s-info .s-title{font-size: 32rpx; font-weight: bold;}
+.tradinfo-bd .list .li .s-info .s-rate{font-size: 24rpx; color: #666; margin-top: 10rpx;}
+.tradinfo-bd .list .li .s-info .s-rate .span{color: #2CB476; font-weight: bold; font-size:28rpx; margin-right: 15rpx;}
+.tradinfo-bd .list .li .msg{border: 1px solid #2CB476; padding: 5rpx 10rpx; height: 40rpx; font-weight: bold; color: #2CB476; border-radius: 10rpx; font-size: 24rpx;}
+

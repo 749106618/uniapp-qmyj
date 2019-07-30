@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"code-info{font-size: ",[0,28],";}\n.",[1],"code-info .",[1],"image,.",[1],"code-info .",[1],"image wx-image{width: ",[0,650],"; height: ",[0,650],";}\n",],undefined,{path:"./pages/invite/myCode.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/invite/myCode.wxml') } }));

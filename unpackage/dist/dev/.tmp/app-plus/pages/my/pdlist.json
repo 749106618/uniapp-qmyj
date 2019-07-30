@@ -1,0 +1,14 @@
+{
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#ED5564",
+  "backgroundColorTop": "#ED5564",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "余额明细",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 80,
+  "backgroundColorBottom": "#F8F8F8",
+  "pullToRefresh": {
+    "type": "default",
+    "color": "#EFEFEF"
+  }
+}

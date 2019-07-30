@@ -1,0 +1,38 @@
+
+.service-baner{height: 85px;}
+.service-baner image{height: 85px;width: 100%;}
+page{background-color: #F8F8F8;height: auto; min-height: 100%;width: 750rpx; margin: 0 auto;}
+.service-list{margin: 20rpx; margin-right: 5rpx;}
+.service-list .service-nav{width: 166.25rpx; background: #FFFFFF; margin-right: 15rpx; margin-bottom: 15rpx; padding:  20rpx 0;border-radius:15rpx; -webkit-box-shadow: 0 0 4rpx 0 #ccc; box-shadow: 0 0 4rpx 0 #ccc;
+}
+.service-list .service-nav .service-nav-img{width: 56.25rpx; height: 56.25rpx; margin: 20rpx 55rpx 20rpx 55rpx; vertical-align: middle;}
+.service-list .service-nav .service-nav-txt{text-align: center; font-size: 23rpx; height: 40rpx; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center;}
+.service-tab{padding:15px 10px; background: #fff; height: 25px; margin: 10px 0;}
+.service-tab .li{-webkit-box-flex: 1;-webkit-flex: 1;-ms-flex: 1;flex: 1;color: #999;font-size: 14px;}
+.service-tab .li:nth-child(1){border-right: 2rpx solid #ccc;}
+.service-tab .li .wwi-icon{margin-right: 10rpx;}
+.service-tab .li.ok{color: #333; font-weight: bold;}
+.service-tab .li.ok .wwi-icon{color: #007AFF; font-size: 24px;}
+.service-tab .li.ok:nth-child(1) .wwi-icon{color: #fbbd08;}
+.page-body {display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex; background: #FFFFFF;}
+.nav {display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;width: 100%;}
+.nav-left {width: 30%; background: #F8F8F8;}
+.nav-left-item {height: 90rpx;border-right: solid 2rpx #FFFFFF;border-bottom: solid 2rpx #FFFFFF;font-size: 26rpx;display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;-webkit-box-align: center;-webkit-align-items: center;-ms-flex-align: center;align-items: center;-webkit-box-pack: center;-webkit-justify-content: center;-ms-flex-pack: center;justify-content: center; background: #F8F8F8; position: relative;}
+.nav-left-item.active:after{content: ""; width: 8rpx; height: 20rpx; background: #03A9F4; border-radius:5rpx; position: absolute; left: 10rpx; top: 35rpx;}
+.nav-right {width: 70%;}
+.active {color: #03A9F4; background: #FFFFFF;font-size: 28rpx; font-weight: bold;}
+.uni-navbar-btn {width: 1.125em !important;}
+.brand-item{    float: left;width: 140rpx;margin: 15rpx 10rpx 0 10rpx;overflow: hidden;text-align: left;}
+.brand-item image{width: 100%; margin: 15rpx 0; height: 70rpx; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex;}
+.brand-item .brand-name{font-size: 22rpx;line-height: 1em;white-space: nowrap;-o-text-overflow: ellipsis;text-overflow: ellipsis;text-align: center;overflow: hidden;}
+/*分类页商品*/
+.module-title{position: relative;width: 100%;text-align: left;margin: 30rpx auto 15rpx auto;}
+.module-title:before {width: 100%;position: absolute;top: 20rpx;left: 0;content: '';height: 1px;background: #f2f2f2;}
+.module-title .module-classname{display: inline-block;position: relative;height: 26rpx;line-height:26rpx;font-size: 26rpx;vertical-align: middle;padding: 0 15rpx; background: #FFFFFF; color: #03A9F4;}
+.module-title .module-more{display: block;position: absolute;right: 0;top: 12rpx;background: #FFF;padding: 0 15rpx 0 10rpx;height: 24rpx;line-height: 24rpx;font-size: 24rpx; background: #FFFFFF; color: #858b8e;}
+.nav-right-center{padding: 15rpx;}
+.nav-right-item {width: 100%;text-align: center;font-size: 22rpx;}
+.nav-right-item image {width: 100rpx;height: 100rpx;}
+.module-center {width: 100%; display: inline-table;}
+.module-center .module-item{width:160rpx; float: left; color: #666e88;}
+

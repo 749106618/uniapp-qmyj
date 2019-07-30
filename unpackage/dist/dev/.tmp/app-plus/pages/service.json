@@ -1,0 +1,29 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "分类",
+  "backgroundTextStyle": "dark",
+  "backgroundColorTop": "#FFFFFF",
+  "backgroundColor": "#FFFFFF",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTextStyle": "black",
+  "bounce": "none",
+  "titleNView": {
+    "titleColor": "#000000",
+    "backgroundColor": "#FFFFFF",
+    "searchInput": {
+      "borderRadius": "15px",
+      "placeholder": "搜索商城",
+      "placeholderColor": "#888888",
+      "disabled": true,
+      "backgroundColor": "#eeeeee",
+      "align": "left"
+    },
+    "buttons": [
+      {
+        "text": "",
+        "fontSrc": "/static/wwi.ttf",
+        "fontSize": "30"
+      }
+    ]
+  }
+}

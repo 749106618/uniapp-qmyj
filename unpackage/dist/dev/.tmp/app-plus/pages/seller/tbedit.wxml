@@ -1,0 +1,2 @@
+<import src="./tbedit.vue.wxml" />
+    <template is="588d27cb" data="{{ ...$root['0'], $root }}"/>

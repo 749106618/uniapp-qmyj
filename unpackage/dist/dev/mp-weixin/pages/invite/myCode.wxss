@@ -1,0 +1,4 @@
+
+.code-info{font-size: 28rpx;}
+.code-info .image,.code-info .image image{width: 650rpx; height: 650rpx;}
+

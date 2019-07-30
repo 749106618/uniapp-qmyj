@@ -1,0 +1,372 @@
+<template>
+	<view class="order-content newBody">
+		<view class="mask" v-show="showMask" catchtouchmove="false"></view>
+		<view class="popup popup-middle" v-show="showMask" catchtouchmove="true">
+                 <view class="s-dialog-content flex flexcol">
+					 <view class="h4">操作订单</view>
+					 <scroll-view scroll-y style="height: 300upx;" class="flex flexcol">
+					 <view class="li">订单编号：{{cancelOrderKey.paysn}}</view>
+					 <view class="li">取消缘由:{{cancelOrderKey.msg}}<block v-if="cancelOrderKey.msg=='其他原因'">({{cancelOrderKey.gmsg}})</block></view>
+					 <view class="li flex flexrow lice-msg"><view class="span" :class="{'cur':cancelOrderKey.msg=='无法备齐货物'}" @tap="btnMsg('无法备齐货物')">无法备齐货物</view><view class="span" :class="{'cur':cancelOrderKey.msg=='不是有效订单'}" @tap="btnMsg('不是有效订单')">不是有效订单</view><view class="span" :class="{'cur':cancelOrderKey.msg=='买家主动要求'}" @tap="btnMsg('买家主动要求')">买家主动要求</view><view class="span" :class="{'cur':cancelOrderKey.msg=='其他原因'}" @tap="btnMsg('其他原因')">其他原因</view></view>
+					 <view class="li" v-if="cancelOrderKey.msg=='其他原因'"><textarea maxlength="60" v-model="cancelOrderKey.gmsg" class="other-msg" placeholder="说明其他原因(60字内)" auto-height /></view>
+					 </scroll-view>
+					 <view class="s-dialog-btn flex flexrow" @click="showMask=false">
+						 <view class="flex flexAic flexJcc cancel-btn" @tap="cancelOrderBtn">取消</view>
+						 <view class="flex flexAic flexJcc confirm-btn" @tap="cancelOrderBtn('ok')">确定</view>
+					 </view>
+				 </view>
+		</view>
+		
+		<view class="top-nav">
+			<scroll-view scroll-x class="hd">
+				<view :class="['li',stateType=='' ? 'on' : '']" @click="swichNav('')">
+					<view class="p">全部</view>
+				</view>
+				<view :class="['li',stateType=='state_new' ? 'on' : '']" @click="swichNav('state_new')">
+					<view class="p">待付款</view>
+				</view>
+				<view :class="['li',stateType=='state_pay' ? 'on' : '']" @click="swichNav('state_pay')">
+					<view class="p">待发货</view>
+				</view>
+				<view :class="['li',stateType=='state_notakes' ? 'on' : '']" @click="swichNav('state_notakes')">
+					<view class="p">待自提</view>
+				</view>
+				<view :class="['li',stateType=='state_send' ? 'on' : '']" @click="swichNav('state_send')">
+					<view class="p">已发货</view>
+				</view>
+				<view :class="['li',stateType=='state_success' ? 'on' : '']" @click="swichNav('state_success')">
+					<view class="p">已完成</view>
+				</view>
+				<view :class="['li',stateType=='state_cancel' ? 'on' : '']" @click="swichNav('state_cancel')">
+					<view class="p">已取消</view>
+				</view>
+			</scroll-view>
+		</view>
+		<scroll-view class="order-main" scroll-y @scrolltolower="Inlimine">
+			<view class="wwiapp-order-list">
+				<view v-if="!order_list.length" class="wwi-nodata">
+					<view class="no-main">
+						<view class="wwi-icon wwi-icon-zhangdan_quxiao"></view>
+						<view class="dl">
+							<view class="dt">您还没有相关的订单</view>
+							<view class="dd">可以去看看哪些想要买的</view>
+						</view>
+					</view>
+				</view>
+				<view class="li mt10" v-for="(item,index) in order_list" :key="index">
+					<view class="wwiapp-order-item">
+						<view class="wwiapp-order-item-head">
+							<view   class="store" style="font-size: 30upx;">
+								<view>编号:</view><text class="em" style="font-size: 28upx;">{{item.order_sn}}</text>
+							</view>
+							<view class="span">{{item.state_desc}}</view>
+						</view>
+						<view class="wwiapp-order-item-con">
+							<navigator :url="'/pages/seller/orderinfo?orderId='+item.order_id" class="goods-block" v-for="(goods,index3) in item.goods_list"
+							 :key="index3">
+								<image :src="goods.image_240_url" class="goods-pic"></image>
+								<view class="goods-info">
+									<view class="goods-name">{{goods.goods_name}}</view>
+									<view class="goods-type">{{goods.goods_spec}}</view>
+								</view>
+								<view class="goods-subtotal">
+									<view class="goods-price">
+										<view>￥</view><text class="em">{{goods.goods_price}}</text>
+									</view>
+									<text class="goods-num">x{{goods.goods_num}}</text>
+								</view>
+							</navigator>
+							<view class="goods-gift" v-if="item.zengpin_list && item.zengpin_list.length > 0">
+								<view class="em">赠品</view>
+								<view class="span">
+									<view class="p wwi-ellipsis" v-for="(zp,key) in item.zengpin_list" :key="key">{{zp.goods_name}}</view>
+								</view>
+							</view>
+						</view>
+						<view class="wwiapp-order-item-footer">
+							<view class="store-totle">
+								<view class="span">共{{item.goods_count}}种商品,合计</view>
+								<view class="sum">
+									<view>￥</view><text class="em">{{item.goods_amount}}</text>
+								</view>
+								<view class="freight">(含运费￥{{item.shipping_fee}})</view>
+							</view>
+							<view class="handle">
+								<view class="lt">
+									<view class="del" v-if="item.if_delete" @click="deleteOrder(item)">
+										<view class="wwi-icon wwi-icon-shanchu"></view>移除
+									</view>
+									<view class="p" v-if="item.if_lock">退款/退货中...</view>
+								</view>
+								<view class="rt">
+									<view v-if="item.if_store_cancel" @click="cancelOrder(item)" class="o-btn cancel-order">取消订单</view>
+									<navigator v-if="item.if_deliver" :url="'/pages/my/orderdelivery?oid='+item.order_id" class="o-btn viewdelivery-order">查看物流</navigator>
+									<navigator v-if="item.if_store_send" :url="'/pages/seller/send?oid='+item.order_id" class="o-btn key sure-order">设置发货</navigator>
+									<view v-if="item.if_modify_price" @click="modifyPriceBtn(item)" class="o-btn key edit-order">修改价格</view>
+								</view>
+							</view>
+						</view>
+					</view>
+				</view>
+			</view>
+			<view class="loadMore">{{loadMore}}</view>
+			<view v-if="showPageTop" class="wwi-icon wwi-icon-jiantou_yemian_xiangshang pageTop" @click="goPageTop"></view>
+		</scroll-view>
+		<wwi-mask-up ref="modifyPrice" leftText="取消" title="修改价格">
+			<form @submit="submitModifyPrice">
+			 <view class="edit-price">
+				 <view class="e-list flex flexrow flexJcs"><view class="e-list-l">买家</view><view class="e-list-r">{{editOrder.buyer_name}}</view></view>
+				 <view class="e-list flex flexrow flexJcs"><view class="e-list-l">订单号</view><view class="e-list-r">{{editOrder.order_sn}}</view></view>
+				 <view class="e-list flex flexrow flexJcs"><view class="e-list-l">运费金额(可增加减少，最小为0)</view><view class="e-list-r"><input type="number" :value="editOrder.shipping_fee" name="shipping_fee" /></view></view>
+				 <view class="e-list flex flexrow flexJcs" v-for="(edg,gkey) in editOrder.goods_list" :key="gkey"><view class="e-list-l">
+				【{{edg.goods_name}}】优惠金额(最大优惠{{edg.goods_pay_price-0.01}})
+				 </view><view class="e-list-r"><input type="number" value="0" :name="'goods_'+edg.rec_id" /></view></view>
+				 <view class="btn-area">
+					<button formType="submit" type="primary" class="wwibtn">确认修改</button>
+				</view>
+			 </view>
+				</form>
+		</wwi-mask-up>
+	</view>
+
+</template>
+
+<script>
+	import wwiMaskUp from '@/components/wwi-mask-up.vue';
+	export default {
+		components: {
+			wwiMaskUp
+		},
+		data() {
+			return {
+				key: '',
+				order_list: [],
+				curpage: 1,
+				orderKey: '',
+				hasMore: true,
+				loadMore: '',
+				stateType: '',
+				reset: true,
+				showPageTop: false,
+				showMask:false,
+				cancelOrderKey:{
+					id:'',
+					paysn:'',
+					msg:'',
+					gmsg:''
+				},
+				editOrder:[]
+			};
+		},
+		methods: {
+
+			Inlimine() {
+				if (this.reset) {
+					this.curpage = 1;
+					this.hasMore = true;
+				}
+				if (!this.hasMore) {
+					return false;
+				}
+				this.hasMore = false;
+				this.wwiopt({
+					url: "/index.php?app=seller_order&wwi=order_list&page=10&curpage=" + this.curpage,
+					method: 'POST',
+					data: {
+						key: this.key,
+						state_type: this.stateType
+					},
+					success: res => {
+						this.checksellerLogin(res.data.login);
+						this.curpage += 1;
+						this.hasMore = res.data.hasmore;
+						if (this.reset) {
+							this.reset = false;
+							this.order_list = res.data.datas.order_list;
+							if (res.data.page_total > 1) {
+								this.loadMore = '加载更多...'
+							}
+						} else {
+							res.data.datas.order_list.forEach(item => {
+								this.order_list.push(item);
+							});
+							if (!this.hasMore) {
+								this.loadMore = '没有更多了'
+							}
+						}
+					}
+				});
+			},
+			swichNav(e) {
+				if (e == this.stateType) {
+					return false;
+				}
+				this.stateType = e;
+				this.reset = true;
+				this.loadMore = '';
+				this.Inlimine();
+			},
+			goPageTop() {
+				uni.pageScrollTo({
+					scrollTop: 0,
+					duration: 300
+				});
+				this.showPageTop = false;
+			},
+			cancelOrder(e) {
+				this.cancelOrderKey.id = e.order_id;
+				this.cancelOrderKey.paysn = e.order_sn;
+				this.showMask = true;
+			},
+			btnMsg:function(e){
+				this.cancelOrderKey.msg = e;
+			},
+			cancelOrderBtn:function(e){
+				if(e=='ok'){
+					if(!this.cancelOrderKey.id){
+						uni.showModal({
+							content: '参数异常，请重试',
+							showCancel:false,
+							confirmText: '我知道了'
+						});
+						return;
+					}
+					if(!this.cancelOrderKey.msg){
+						uni.showModal({
+							content: '请选择退款原因或选择其他原因填写',
+							showCancel:false,
+							confirmText: '我知道了'
+						});
+						return;
+					}
+					var reason = this.cancelOrderKey.msg;
+					if(this.cancelOrderKey.msg=='其他原因'){
+						reason +='('+this.cancelOrderKey.gmsg+')';
+					}
+					this.wwiopt({
+						url: "/index.php?app=seller_order&wwi=order_cancel",
+						method: 'POST',
+						data: {
+							key: this.key,
+							order_id: this.cancelOrderKey.id,
+							reason:reason
+						},
+						success: res => {
+							if (res.data.datas && res.data.datas == 1) {
+								this.reset = true;
+								this.loadMore = '';
+								this.Inlimine();
+							} else {
+								uni.showModal({
+									content: res.data.datas.error,
+									showCancel:false,
+									confirmText: '我知道了'
+								});
+							}
+						}
+					});
+				}else{
+					this.cancelOrderKey={
+						id:'',
+						paysn:'',
+						msg:'',
+						gmsg:''
+					}
+				}
+				
+			},
+			modifyPriceBtn:function(e){
+				this.editOrder =e;
+				this.$refs.modifyPrice.show();
+			},
+			submitModifyPrice:function(e){
+				var parem = {};
+				    parem = e.mp.detail.value;
+				    parem.key = this.key;
+					parem.order_id = this.editOrder.order_id;
+				this.$refs.modifyPrice.maskClick();
+				this.wwiopt({
+					url: '/index.php?app=seller_order&wwi=order_modify_price',
+					method: 'POST',
+					data: parem,
+					success: res => {
+						this.checksellerLogin(res.data.login);
+						if(res.data.datas.error){
+							uni.showModal({
+								content: res.data.datas.error,
+								showCancel: false
+							});
+							return false;
+						}
+						
+						uni.showModal({
+							content: '修改成功',
+							showCancel: false,
+							success: () => {
+								this.reset = true;
+								this.loadMore = '';
+								this.Inlimine();
+							}
+						});
+						
+					}
+				});
+			}
+
+		},
+		onShow: function() {
+
+			this.key = uni.getStorageSync('seller_key');
+			if (!this.key) {
+				uni.navigateTo({
+					url: '/pages/seller/login'
+				});
+			}
+			this.Inlimine();
+		},
+		onLoad: function(e) {
+			if (e.state) {
+				this.stateType = e.state;
+			}
+		},
+		onPageScroll: function(e) {
+			if (e.scrollTop > 300) {
+				this.showPageTop = true;
+			} else if (e.scrollTop < 300) {
+				this.showPageTop = false;
+			}
+		}
+
+	}
+</script>
+
+<style>
+page{background: #F8F8F8;}
+.order-content{display: flex;  width: 100%; height: 100%; flex-direction: column;}
+.order-content .top-nav{flex: 1;  width: 100%; border-bottom: 1px solid #F8F8F8; background: #FFFFFF;}
+.order-content .top-nav .hd{flex: 1; height: 44px; width: auto;white-space: nowrap; }
+.order-content .top-nav .li{  display: inline-block; text-align: center; box-sizing: border-box; padding: 0 10px; white-space: normal; line-height: 38px; height: 44px;}
+.order-content .top-nav .li .p{ line-height: 42px; height: 42px; color: #232326; font-size: 15px;}
+.order-content .top-nav .li.on .p{border-bottom:2px solid #F23030; color:#F23030;}
+.order-main{flex: 1;  height: calc(100% - 44px);position: relative;}
+.sure-order{background: #ff0036; color: #FFFFFF !important; border-color:#ff0036 !important;}
+.edit-order{background: #03A9F4; color: #FFFFFF !important; border-color:#03A9F4 !important;}
+.mask {position: fixed;z-index: 998;top: 0;right: 0;bottom: 0;left: 0;background-color: rgba(0, 0, 0, .3); }
+.popup {position: fixed;z-index: 999;background-color: #ffffff;-webkit-box-shadow: 0 0 30upx rgba(0, 0, 0, .1);box-shadow: 0 0 30upx rgba(0, 0, 0, .1);}
+.popup-middle {width: 600upx;height: 480upx;border-radius: 10upx;top: 0;right: 0;bottom: 0;left: 0;margin: auto;}
+.s-dialog-content{ padding: 20upx;}
+.s-dialog-content .h4{font-size: 34upx; height: 60upx; text-align: center;},
+.s-dialog-content .li{font-size: 28upx;},
+.s-dialog-content .s-dialog-btn{align-items: center; justify-content: center; color: #607d8b; height: 80upx; font-size: 36upx;}
+.s-dialog-content .s-dialog-btn .cancel-btn{flex: 1;}
+.s-dialog-content .s-dialog-btn .confirm-btn{flex: 1; color: #00BCD4;}
+.other-msg{background: #F8F8F8; padding: 15upx; font-size: 24upx;}
+.lice-msg{flex-wrap: wrap;}
+.lice-msg .span{background: #F8F8F8; padding: 2.5upx 10upx; border-radius:15upx; margin-right: 15upx; margin-bottom: 15upx; color: #9e9e9e;}
+.lice-msg .span.cur{border: 1px dotted #00BCD4; color: #00BCD4;}
+.edit-price{font-size: 28upx;}
+.edit-price .e-list{margin-bottom: 10upx;}
+.edit-price .e-list .e-list-l{color: #888888; flex: 1; max-width: 65%;}
+.edit-price .e-list .e-list-r{display: flex; justify-content: center; align-items: center;}
+.edit-price .e-list .e-list-r input{background: #F8F8F8; padding: 0 20upx; width: 150upx;}
+</style>

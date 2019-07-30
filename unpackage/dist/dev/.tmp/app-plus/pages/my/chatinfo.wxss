@@ -1,0 +1,45 @@
+
+page{background: #F8F8F8;}
+.wwiapp-chat-con {}
+.wwiapp-chat-con .get-old-msg{height: 80rpx; font-size: 28rpx; color: #777; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center;}
+.wwiapp-chat-con .goods{padding: 20rpx; margin: 20rpx; background: #FFFFFF;}
+.wwiapp-chat-con .goods .goods-images,.wwiapp-chat-con .goods .goods-images image{width: 120rpx; height: 120rpx;}
+.wwiapp-chat-con .goods .goods-info{margin-left: 20rpx;}
+.wwiapp-chat-con .goods .goods-info .goods-name{font-size: 24rpx;}
+.wwiapp-chat-con .goods .goods-info .goods-price{color: #FF0036; font-size: 26rpx; font-weight: 600;}
+.wwiapp-chat-con .dl {position: relative;min-height: 88rpx;padding: 8rpx 0;margin-bottom:8rpx;overflow: hidden;}
+.wwiapp-chat-con .dl.msg-other {animation: optionMsgLeft 0.5s ease-in-out;-webkit-animation: optionMsgLeft 0.5s ease-in-out;}
+@keyframes optionMsgLeft {from {opacity: 0.5;left: -100%;right: 100%;}to {opacity: 1;left: 0;right: 0;}}
+@-webkit-keyframes optionMsgLeft {from {opacity: 0.5;left: -100%;right: 100%;}to {opacity: 1;left: 0;right: 0;}}
+.wwiapp-chat-con .dl.msg-me {animation: optionMsgRight 0.5s ease-in-out;-webkit-animation: optionMsgRight 0.5s ease-in-out;}
+@keyframes optionMsgRight {from {opacity: 0.5;left: 100%;right: -100%;}to {opacity: 1;left: 0;right: 0;}}
+@-webkit-keyframes optionMsgRight {from {opacity: 0.5;left: 100%;right: -100%;}to {opacity: 1;left: 0;right: 0;}}
+.wwiapp-chat-con .dl .dt {width: 80rpx;height: 80rpx;position: absolute;z-index: 1;top: 0.3rem;}
+.wwiapp-chat-con .dl .dt ._i {width: 0.5rem;height: 0.5rem;position: absolute;z-index: 1;top: 0.5rem;background-repeat: no-repeat;background-position: 50% 50%;background-size: 100%;}
+.wwiapp-chat-con .dl .dt image {max-width: 80rpx;max-height: 80rpx;border-radius: 100%;}
+.wwiapp-chat-con .dl.msg-other .dt {left: 16rpx;}
+.wwiapp-chat-con .dl.msg-me .dt {right: 16rpx;}
+.wwiapp-chat-con .dl .dd {display: block;max-width: 375rpx;padding: 16rpx 24rpx;border-radius: 16rpx;min-height: 36rpx;font-size: 28rpx;line-height: 36rpx;color: #000;word-wrap: break-word; position: relative;}
+.wwiapp-chat-con .dl .dd:after{content: '';width: 0; height: 0; position: absolute; border-width: 16rpx; top: 20rpx;}
+.wwiapp-chat-con .dl.msg-me .dd:after{border-color: transparent transparent transparent #FFD779;border-style: dashed dashed  dashed solid; right: -28rpx;}
+.wwiapp-chat-con .dl.msg-other .dd:after{border-color: transparent #FFFFFF transparent transparent ;border-style: dashed solid dashed  dashed ; left: -28rpx;}
+.wwiapp-chat-con .dl .dd image {background: #FFF;max-width: 320rpx;max-height: 320rpx;padding: 8rpx;border-radius: 12rpx;vertical-align: text-bottom;margin: 0 8rpx;}
+.wwiapp-chat-con .dl.msg-other .dd {margin-left: 120rpx;float: left;background-color: #FFF;}
+.wwiapp-chat-con .dl.msg-me .dd {margin-right: 120rpx;float: right;background-color: #FFD779;}
+.msg-bottom{ background: #FFFFFF; position: fixed; z-index: 99; bottom: 0;left: 0; right: 0; -webkit-transition: 2s; -o-transition: 2s; transition: 2s;
+}
+.msg-bottom .hd{display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row;height: 44px;}
+.msg-bottom .wwi-icon{font-size: 36px; width: 40px;display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center;}
+.msg-bottom .input{-webkit-box-flex: 1;-webkit-flex: 1;-ms-flex: 1;flex: 1;display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; margin-right:10px;
+}
+.msg-bottom .input input{height: 29px; background: #F8F8F8;width: 100%; line-height: 29px; font-size: 15px; border-radius:5px ; padding: 3px 5px;}
+.msg-bottom .btn{background: #007AFF; color: #FFFFFF; font-size: 15px; width: 45px; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center;}
+.msg-bottom .bd{ padding: 10px; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; border-top:1px solid #F8F8F8 ; height: 100px;}
+.msg-bottom .bd .li{width: 12.5%; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center;}
+.msg-bottom .bd .li image{width: 28px; height: 28px;}
+.msg-title{height: 44px;display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; font-size: 16px; font-weight: 600; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; position: relative;}
+.msg-title .title{margin:0 80rpx;display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1;
+}
+.msg-title .rightIco{width: 45px;display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; position: absolute;right: 0;}
+.msg-title .rightIco .wwi-icon{font-size: 24px;}
+

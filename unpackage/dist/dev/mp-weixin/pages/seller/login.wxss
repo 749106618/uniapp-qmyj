@@ -1,0 +1,9 @@
+
+page {background: #ffffff;}
+.new-login .input-group{background: transparent;}
+.login-input{background: rgba(255,255,255,0.5); border-radius:20rpx; margin-top: 80rpx;}
+.login-input .title{color: #03a9f4; font-size: 48rpx; width: 80rpx; padding-left: 20rpx;}
+.login-input .icon-lock{color: #888888;}
+.login-input input{padding: 20rpx; height: 40rpx; line-height: 40rpx; font-size: 28rpx;}
+.seller-login{background: #03a9f4; position: relative; height: 200rpx;}
+

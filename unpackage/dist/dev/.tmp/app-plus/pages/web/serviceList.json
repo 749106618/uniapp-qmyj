@@ -1,0 +1,17 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "服务列表",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "backgroundColorTop": "#F8F8F8",
+  "backgroundColorBottom": "#F8F8F8",
+  "titleNView": {
+    "searchInput": {
+      "borderRadius": "15px",
+      "placeholder": "搜索服务商",
+      "placeholderColor": "#888888",
+      "disabled": false,
+      "backgroundColor": "rgba(223,223,223,0.4)",
+      "align": "left"
+    }
+  }
+}

@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"wwi-news-content { padding: ",[0,20],"; }\n",],undefined,{path:"./pages/web/document.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/web/document.wxml') } }));

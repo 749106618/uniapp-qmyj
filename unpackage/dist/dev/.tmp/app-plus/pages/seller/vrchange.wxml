@@ -1,0 +1,2 @@
+<import src="./vrchange.vue.wxml" />
+    <template is="f6592202" data="{{ ...$root['0'], $root }}"/>

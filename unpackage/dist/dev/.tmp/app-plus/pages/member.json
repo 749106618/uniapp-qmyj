@@ -1,0 +1,45 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "会员中心",
+  "navigationBarTextStyle": "white",
+  "backgroundColor": "#FFFFFF",
+  "backgroundColorTop": "#03A9F4",
+  "backgroundColorBottom": "#FFFFFF",
+  "pullToRefresh": {
+    "support": true,
+    "color": "#EFEFEF",
+    "style": "default"
+  },
+  "titleNView": {
+    "type": "transparent",
+    "backgroundColor": "#03A9F4",
+    "buttons": [
+      {
+        "text": "",
+        "background": "rgba(255,255,255,0)",
+        "fontSrc": "/static/wwi.ttf",
+        "fontSize": "30"
+      },
+      {
+        "text": "",
+        "background": "rgba(255,255,255,0)",
+        "fontSrc": "/static/wwi.ttf",
+        "fontSize": "30"
+      },
+      {
+        "text": "",
+        "background": "rgba(255,255,255,0)",
+        "fontSrc": "/static/wwi.ttf",
+        "fontSize": "30",
+        "float": "left"
+      },
+      {
+        "text": "切换至卖家",
+        "background": "rgba(255,255,255,0)",
+        "fontSize": "16px",
+        "width": "80px",
+        "float": "left"
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+
+page{background: #F8F8F8;}
+.chain-banner{width: 20em;}
+.chain-banner image{width: 20em; vertical-align: middle;}
+.chain-info{padding: 0.5em; background: #FFFFFF;}
+.chain-info .store-avatar{width: 4em;}
+.chain-info .store-avatar image{width: 4em; height: 4em;}
+.chain-info .detail-item{-webkit-box-flex: 1;-webkit-flex: 1;-ms-flex: 1;flex: 1; margin-left: 0.5em;}
+.chain-info .detail-item .dl{font-size: 0.65em;}
+.chain-info .detail-item .dl .dt{ margin-right: 0.45em; color: #777;}
+.chain-info .detail-item .dl .dd{-webkit-box-flex: 1;-webkit-flex: 1;-ms-flex: 1;flex: 1;}
+.detail-item2{padding: 0.4em 0.5em;}
+.detail-item2 .item-name{color: #777; font-size: 0.7em;}
+.detail-item2 .item-con{-webkit-box-flex: 1;-webkit-flex: 1;-ms-flex: 1;flex: 1;}
+.detail-item2 .item-con .dt{font-size: 0.7em; margin-left: 0.5em;}
+.detail-item2 .item-con .dt .li{color: #FFFFFF; position: relative; height: 1.8em; margin-right: 0.5em;}
+.detail-item2 .item-con .dt .wwi-icon{font-size: 10em; color: #FF0036; width: 10rpx;height:100%; overflow: hidden;}
+.wwiapp-voucher-list .li{margin-bottom: 0.5em;}
+.wwiapp-voucher-list .li .item-left{width: 40%; height: 5em; color: #fff;}
+.wwiapp-voucher-list .li .item-left .wwi-icon{font-size: 7em; width: 0.03em; overflow: hidden; color:  #6393d0;}
+.wwiapp-voucher-list .li .item-left .price-info{background: -webkit-gradient(linear, left top, right top, from(#6393d0), to(#6a79d6));background: -o-linear-gradient(left, #6393d0, #6a79d6);background: linear-gradient(to right, #6393d0, #6a79d6); display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center;}
+.wwiapp-voucher-list .li .item-left .price-info .price .em{font-size: 0.45em;}
+.wwiapp-voucher-list .li .item-left .price-info .price{-webkit-box-align: baseline;-webkit-align-items: baseline;-ms-flex-align: baseline;align-items: baseline; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; font-size: 1.3em;}
+.wwiapp-voucher-list .li .item-left .price-info .condition{font-size: 0.6em;}
+.wwiapp-voucher-list .li .item-right{-webkit-box-flex: 1;-webkit-flex: 1;-ms-flex: 1;flex: 1; padding: 0.5em; background: #f8f8f8;}
+.wwiapp-voucher-list .li .item-right .coupons-name{display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;}
+.wwiapp-voucher-list .li .item-right .coupons-name .i{background: #6292d0; font-size: 0.65em; color: #FFFFFF; border-radius:0.25em ; padding: 0.125em 0.25em;}
+.wwiapp-voucher-list .li .item-right .coupons-text{margin-top: 0.25em; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex;}
+.wwiapp-voucher-list .li .item-right .coupons-text .time{font-size: 0.65em; color: #777;}
+.wwiapp-voucher-list .li .item-right .coupons-text .goto-receive{color: #6292d0; border: 0.05em solid #6292d0; font-size: 0.6em; padding: 0 0.25em; border-radius: 0.5em;
+}
+.chain-goods-list{background: #FFFFFF; margin-top: 0.5em;}
+.chain-goods-list .li{}
+.chain-goods-list .li .goods-image{padding: 0.5em;}
+.chain-goods-list .li .goods-image image{width: 5em; height: 5em; vertical-align: middle;}
+.chain-goods-list .li .goods-info{-webkit-box-flex: 1;-webkit-flex: 1;-ms-flex: 1;flex: 1;padding: 0.5em; border-bottom: 0.05em solid #eee; -webkit-box-sizing: border-box; box-sizing: border-box; overflow: hidden;}
+.chain-goods-list .li .goods-info .goods-name{    font-size: 0.75em;line-height: 1.2em;height: 2.4em;overflow: hidden;}
+.chain-goods-list .li .goods-info .goods-sub-name  {font-size: 0.65em;color: #999;line-height: 1.2em;height:1.2em;white-space: nowrap;-o-text-overflow: ellipsis;text-overflow: ellipsis;overflow: hidden;}
+.chain-goods-list .li .goods-info .sale{}
+.chain-goods-list .li .goods-info .sale .price-info{-webkit-box-flex: 1;-webkit-flex: 1;-ms-flex: 1;flex: 1;}
+.chain-goods-list .li .goods-info .sale .price-info .price{display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; color: #FF0036; font-size: 0.95em; -webkit-box-align: baseline; -webkit-align-items: baseline; -ms-flex-align: baseline; align-items: baseline;}
+.chain-goods-list .li .goods-info .sale .price-info .price .em{font-size: 0.45em;}
+.chain-goods-list .li .goods-info .sale .price-info .goods-sold{display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row;font-size: 0.75em; -webkit-box-align: baseline; -webkit-align-items: baseline; -ms-flex-align: baseline; align-items: baseline; color: #777;}
+.chain-goods-list .li .goods-info .sale .price-info .goods-sold .em{color: #333; font-weight: bold;}
+.chain-goods-list .li .goods-info .sale .btn{ color: #FFFFFF; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; -webkit-box-align: end; -webkit-align-items: flex-end; -ms-flex-align: end; align-items: flex-end;}
+.chain-goods-list .li .goods-info .sale .btn .span{background: #FF0036; font-size: 0.75em; padding: 0.125em 0.25em; border-radius:0.5em ;
+}
+

@@ -1,0 +1,40 @@
+.wrapper {background-color: #f8f8f8;}
+.index-slider{width:750px; height:400px;position: absolute; top: 0}
+.index-slider__size{width:750px; height:400px}
+.index-slider__con{    position: absolute;left: 0;right: 0;bottom: 20px;height: 60px;background-color: rgba(0, 0, 0, 0);item-color: #ddd;item-selected-color: rgb(0, 180, 255)}
+.wwi-icon{font-family:wwi-icon}
+.app-index-icon-list{background-color:#ffffff;}
+.app-index-pt380{padding-top: 380px;}
+.index-main-wr{ border-radius:20px;width: 710px; overflow: hidden; }
+.app-index-icon-list__li{width:167.5px;padding:20px 0}
+.app-index-icon-list__li-box{width:90px; height:90px; border-radius:90px; margin:0 38.75px}
+.app-index-icon-list__li-box-img{width:90px; height:90px}
+.app-index-icon-list__li-box-icon{position:absolute; line-height:90px; text-align:center; color:#ffffff; font-size:64px; width:90px}
+.app-index-icon-list__text{ font-size: 24px; margin-top:10px; text-align:center}
+.app-index-gg{width:710px;}
+.app-index-gg__content{color:#f0f0f0; height: 48px; overflow: hidden;}
+.app-index-gg__content_list{flex-direction: row;align-items: center;height: 48px;padding-top: 0px;}
+.app-index-gg__content_text{height: 48px;width: 480px;line-height: 48px;padding-left: 10px;color: #8dc63f;font-size: 28px;text-overflow: ellipsis;}
+.app-index-gg__content_con {position: absolute;left: 0;top: 0;}
+
+.wwiapp-home-block{}
+.wwiapp-home-block__tit-bar{display: flex;justify-content: center;font-size: 32px; height: 100px; }
+.wwiapp-home-block__tit-bar-text{color: #434e56; font-weight: bold;}
+.wwiapp-home-block__item-pic{width:710px; min-height:100px}
+.wwiapp-home-block__pic-big{ height:100%; height:200px; background-color:#ffffff}
+.wwiapp-home-block__item-r2{margin-top: 10px;}
+.wwiapp-home-block__item-r2-li{width: 350px; height: 350px;overflow: hidden; border-radius:10px ;}
+.wwiapp-home-block__item-r2_pic-big{width:350px; height:350px; background-color:#ffffff}
+.wwiapp-home-block__item-r2_pic-small{width:350px; height:175px; background-color:#ffffff}
+.wwiapp-home-block__item-r2_pic-small-l{width:175px; height:175px; background-color:#ffffff}
+.border-left{ margin-left:10px}
+.border-bottom{ margin-bottom:10px}
+.wwiapp-home-block__pic-list-li{width:350px;overflow: hidden; margin-top: 10px; border-radius:10px ;}
+.wwiapp-home-block__pic-list-li:nth-child(even){margin-left: 10px;}
+.wwiapp-home-block__pic-list-li-img{width:350px; height:200px}
+.wwiapp-home-block__goods-list{}
+.wwiapp-home-block__goods-list-li{width:350px; margin-bottom:10px; background-color:#ffffff}
+.wwiapp-home-block__goods-list-li-pic{width:350px; height:350px; padding:20px}
+.wwiapp-home-block__goods-list-goods-info{padding:20px}
+.wwiapp-home-block__goods-list-goods-title-text{font-size: 26px; line-height: 32px; height: 63px; lines:2; overflow: hidden;text-overflow:ellipsis; }
+.wwiapp-home-block__goods-list-goods-price{font-size: 36px; font-weight: bold; color: #ff0036; line-height: 50px; height: 50px;}

@@ -1,0 +1,28 @@
+
+page{background: #F8F8F8;}
+.member-invite-top{}
+.member-invite-top .member-group-hd{padding:40rpx 20rpx;}
+.member-invite-top .member-group-hd .member-avatar{background: #FFFFFF; width: 120rpx; height: 120rpx; padding: 5rpx; border-radius:50% ; overflow: hidden; -webkit-box-shadow: #607d8b 4rpx 4rpx 10rpx; box-shadow: #607d8b 4rpx 4rpx 10rpx;}
+.member-invite-top .member-group-hd .member-avatar image{width: 120rpx; height: 120rpx; border-radius:50% ;}
+.member-invite-top .member-group-hd .member-info{margin-left: 30rpx; -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1;}
+.member-invite-top .member-group-hd .member-info .member-name{font-size: 32rpx; font-weight: bold; color: #FFFFFF;}
+.member-invite-top .member-group-hd .member-info .member-class{color: #ffeb3b; font-size: 26rpx;}
+.member-invite-top .member-group-hd .member-info .member-class .wwi-icon{font-size: 38rpx; margin-right: 10rpx;}
+.member-invite-top .member-group-hd .member-info .member-group{color: #ff5722; font-size: 26rpx;}
+.member-invite-top .member-group-hd .member-info .member-group .wwi-icon{font-size: 38rpx; margin-right: 10rpx;}
+.member-invite-top .member-group-hd .member-code{-webkit-box-align: center;-webkit-align-items: center;-ms-flex-align: center;align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; color: #8bc34a;}
+.member-invite-top .member-group-hd .member-code .wwi-icon-xuanzeqixiayige{font-size: 34rpx;}
+.member-invite-top .member-group-bd{ height: 20rpx; padding: 20rpx; color: #FFFFFF;}
+.member-invite-top .member-group-bd .span{-webkit-box-flex: 1;-webkit-flex: 1;-ms-flex: 1;flex: 1; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; font-size: 28rpx;}
+.member-invite-top .member-group-bd .span:last-child{border-left:1px solid #EFEFEF ;}
+.member-invite-top .member-group-bd .span .wwi-icon{font-size: 44rpx; margin-right: 10rpx;}
+.no-invite{position: fixed; width: 100%; height: 100%; top: 0; bottom: 0; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center;}
+.no-invite .title{font-size: 28rpx;}
+.no-invite .btn{font-size: 36rpx; color: #FF0036;}
+.invite-wei{margin-top: 0rpx; background: #FFFFFF; padding: 20rpx;}
+.invite-wei .title{font-size: 32rpx; font-weight: bold; padding-left: 20rpx;}
+.invite-wei .ul{ -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; padding-left: 20rpx; padding-top: 20rpx;}
+.invite-wei .ul .li{ width: 325rpx;  background: #efefef;-webkit-box-sizing: border-box;box-sizing: border-box; margin-right: 20rpx; margin-bottom: 20rpx; height: 70rpx; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; font-size: 28rpx;}
+.invite-wei .ul .li .wwi-icon{color: #2196f3; font-size: 42rpx; margin: 0 10rpx;}
+.h-tips{background: #fffde7; color: #fdd835; text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5); border: 1px solid #fdd835; margin: 20rpx; padding:10rpx 20rpx; font-size: 24rpx;}
+

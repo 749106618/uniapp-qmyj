@@ -1,0 +1,2 @@
+<import src="./vrbuystep.vue.wxml" />
+    <template is="870c2ce0" data="{{ ...$root['0'], $root }}"/>

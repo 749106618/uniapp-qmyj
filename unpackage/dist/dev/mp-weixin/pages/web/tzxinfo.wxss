@@ -1,0 +1,27 @@
+
+page{background: #f8f8f8;}
+.tzx-title{font-size: 32rpx; font-weight: bold; margin-bottom: 10rpx;}
+.info{width: 750rpx; margin: 0 auto; padding: 20rpx; -webkit-box-sizing: border-box; box-sizing: border-box; margin-bottom: 80rpx;}
+.tzx-stit{color: #777; font-size: 28rpx; margin-bottom: 10rpx;}
+.tzx-stit .span{margin-right: 20rpx;}
+.tzx-stit .wwi-icon{margin-right: 10rpx;}
+.tzx-content{background: #FFFFFF; padding: 20rpx;}
+.comment-info .title{font-size: 32rpx; font-weight: bold; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; height: 100rpx;}
+.item-list{padding-top: 20rpx;}
+.item-list .item{border-bottom: 2rpx solid #eee;}
+.item-list .item .pic{width: 100rpx; height: 100rpx; border-radius:50% ;}
+.item-list .item .right{background: #FFFFFF; -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; padding: 15rpx; min-height: 120rpx; margin-left: 20rpx;}
+.item-list .item .right .name{color: #2782D7; font-size: 28rpx;}
+.item-list .item .right .name .em{color: #777; font-size: 24rpx;}
+.item-list .item .right .btn{font-size: 26rpx; color:#2782D7 ; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: end; -webkit-justify-content: flex-end; -ms-flex-pack: end; justify-content: flex-end;}
+.item-list .item .right .btn .span{margin-left: 20rpx;}
+.item-list .item .right .comment-msg{font-size: 28rpx; color: #333;}
+.nolist{height: 200rpx;display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center;}
+.showload{height: 100rpx;display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; color: #666;}
+.up-msg{border: 2rpx #cbe9f3 dotted; padding: 10rpx; font-size: 24rpx; color:#cbe9f3; border-radius:35rpx 0 35rpx 0;}
+.info-bottom{height: 80rpx; background: #FFFFFF; bottom: 0; position: fixed; width: 100%; -webkit-box-sizing: border-box ; box-sizing: border-box ; padding: 15rpx}
+.info-bottom .btn{background: #f8f8f8; -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; font-size: 28rpx; border-radius:15rpx;}
+.info-bottom .ding{margin-left: 15rpx;display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; color: #f30;}
+.uni-textarea{padding: 20rpx; background: #f8f8f8;}
+.uni-textarea textarea{width: 100%;}
+

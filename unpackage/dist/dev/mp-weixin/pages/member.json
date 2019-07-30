@@ -1,0 +1,8 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "会员中心",
+  "navigationBarTextStyle": "white",
+  "backgroundColor": "#FFFFFF",
+  "backgroundColorTop": "#03A9F4",
+  "backgroundColorBottom": "#FFFFFF"
+}

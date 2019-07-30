@@ -1,0 +1,36 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "首页",
+  "navigationBarBackgroundColor": "#3ab77e",
+  "backgroundColor": "#3ab77e",
+  "backgroundColorTop": "#F8F8F8",
+  "backgroundColorBottom": "#F8F8F8",
+  "navigationBarTextStyle": "white",
+  "bounce": "none",
+  "titleNView": {
+    "backgroundColor": "#3ab77e",
+    "type": "transparent",
+    "searchInput": {
+      "borderRadius": "15px",
+      "placeholder": "搜索商城",
+      "placeholderColor": "#888888",
+      "disabled": true,
+      "backgroundColor": "rgba(255,255,255,0.4)"
+    },
+    "buttons": [
+      {
+        "text": "",
+        "background": "rgba(255,255,255,0)",
+        "fontSrc": "/static/wwi.ttf",
+        "fontSize": "30"
+      },
+      {
+        "text": "",
+        "background": "rgba(255,255,255,0)",
+        "fontSrc": "/static/wwi.ttf",
+        "fontSize": "30",
+        "float": "left"
+      }
+    ]
+  }
+}

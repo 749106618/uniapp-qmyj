@@ -1,0 +1,11 @@
+
+.activity-list{padding-bottom: 20rpx;}
+.activity-list .item{margin: 20rpx; padding: 20rpx; background: #FFFFFF; margin-bottom: 0; border-radius:15rpx;}
+.activity-list .item .hd{font-size: 32rpx; font-weight: bold;}
+.activity-list .item .bd{font-size: 28rpx;line-height: 1.25em;max-height: 2.5em;overflow: hidden;-o-text-overflow: ellipsis;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;white-space: normal; margin-top: 10rpx; color: #888888;}
+.activity-list .item .piclist{margin-top: 15rpx;}
+.activity-list .item .piclist .li{width: 216.66rpx; margin-right: 10rpx;}
+.activity-list .item .piclist .li:last-child{margin-right: 0;}
+.activity-list .item .piclist .li image{width: 216.66rpx; height: 216.66rpx;}
+.activity-list .item .piclist .li .span{color: #FF0036; font-size: 28rpx;}
+

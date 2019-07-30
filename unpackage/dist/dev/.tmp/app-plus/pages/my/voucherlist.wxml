@@ -1,0 +1,2 @@
+<import src="./voucherlist.vue.wxml" />
+    <template is="0f98c9f4" data="{{ ...$root['0'], $root }}"/>

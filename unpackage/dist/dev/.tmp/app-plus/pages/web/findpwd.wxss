@@ -1,0 +1,5 @@
+
+.input-row .title {width: 200rpx;}
+.input-row input {	width: 470rpx;}
+.input-row input.code {	width: 260rpx;}
+

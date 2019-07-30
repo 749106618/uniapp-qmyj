@@ -1,0 +1,25 @@
+
+page{background: #F8F8F8;}
+.wwi-top-menu{height: 80rpx; position: fixed; z-index: 999;left: 0; right: 0; background: #F8F8F8;}
+.wwi-top-menu .li{-webkit-box-flex: 1;-webkit-flex: 1;-ms-flex: 1;flex: 1; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center;}
+.wwi-top-menu .li .span{border-bottom: 4rpx solid #F8F8F8; font-size: 28rpx; font-weight: bold;}
+.wwi-top-menu .li.now .span{border-color:#FF0036 ; color: #FF0036;}
+.brand-list {padding-top:80rpx; margin-left: 20rpx; margin-right: 20rpx;}
+.brand-list .item{background: #FFFFFF; border-radius:14rpx; overflow: hidden; margin-bottom: 20rpx;}
+.brand-list .pic-from{ position: relative;}
+.brand-list .pic-from .pic{width: 100%;}
+.brand-list .pic-from .pic image{width: 100%; vertical-align: middle;}
+.brand-list .pic-from .pic-info{ width: 260rpx; background: #FFFFFF; border-radius:14rpx; overflow:hidden ; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center;}
+.brand-list .pic-from .pic-info .title{background: #f8f8f8; font-size: 24rpx; height: 40rpx; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center;}
+.brand-list .pic-from .pic-info .info-main{margin: 20rpx;}
+.brand-list .pic-from .pic-info .image{width: 180rpx; height: 80rpx; margin: 20rpx auto 0;}
+.brand-list .pic-from .pic-info .image image{width: 100%; height: 100%;}
+.brand-list .pic-from .pic-info .info-main .explain{font-size: 24rpx; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center;-webkit-box-align: center;-webkit-align-items: center;-ms-flex-align: center;align-items: center; margin-top:8rpx; border-bottom: 2rpx solid #F8F8F8;}
+.brand-list .pic-from .pic-info .info-main .price{font-weight: 700;font-family: PingFangSC-Semibold;font-size: 24rpx;color: #333;line-height: 40rpx;text-align: center;-o-text-overflow: ellipsis;text-overflow: ellipsis;overflow: hidden;white-space: nowrap;}
+.brand-list .item .goods-list{min-height: 8rpx;}
+.brand-list .item .goods-list .li{margin-left: 20rpx; margin-top:20rpx; margin-bottom: 20rpx;position: relative;}
+.brand-list .item .goods-list .li image{width: 210rpx; height: 210rpx; vertical-align: middle;}
+.brand-list .item .goods-list .li .price{position: absolute; bottom: 0; height: 40rpx; background: rgba(255,255,255,0.9); width: 100%;}
+.brand-list .item .goods-list .li .price .dt{color: #FF0036; font-size: 24rpx;}
+.brand-list .item .goods-list .li .price .dd{color: #777; font-size: 24rpx; text-decoration:line-through}
+

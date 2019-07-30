@@ -1,0 +1,57 @@
+
+page{background: #f8f8f8;}
+.puzzle-info{background: #FFFFFF; padding: 20rpx;}
+.puzzle-info .puzzle-img{width: 260rpx; height: 260rpx;}
+.puzzle-info .puzzle-img image{width: 100%; height: 100%;}
+.puzzle-info .puzzle-name{-webkit-box-flex: 1;-webkit-flex: 1;-ms-flex: 1;flex: 1; margin-left: 20rpx;}
+.puzzle-info .puzzle-name .h5{font-size: 28rpx;     -o-text-overflow: ellipsis;     text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;white-space: normal;overflow: hidden;}
+.puzzle-info .puzzle-name .puzzle-original{margin-top: 20rpx; position: relative; font-size: 24rpx; border:1px solid #e4e4e4; border-radius: 8rpx; height: 60rpx; text-align: center; color: #999; margin-bottom: 20rpx}
+.puzzle-info .puzzle-name .puzzle-original:last-child{margin-bottom: 0}
+.puzzle-info .puzzle-name .puzzle-original .puzzle-cost{font-size: 24rpx;margin-top:20rpx; height: 35rpx; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center;}
+.puzzle-info .puzzle-name .puzzle-original .puzzle-cost .em{ margin-left:8rpx; font-size: 26rpx; font-weight: 600}
+.puzzle-info .puzzle-name .puzzle-original .puzzle-cost .cost-unit{ margin-left: 0.2rem;
+}
+.puzzle-info .puzzle-name .puzzle-original .yuan-price{font-weight: 600 ;position:absolute; top: -24rpx; left: 40%; padding:4rpx 20rpx; background: #fff;font-size: 24rpx;}
+.puzzle-info .puzzle-name .puzzle{ border-color: #EC5464
+}
+.puzzle-info .puzzle-name .puzzle .puzzle-cost .em{color: #EC5464;}
+.puzzle-info .puzzle-name .puzzle .yuan-price{ color: #333;}
+.puzzle-time{ margin-top: 24rpx; padding:16rpx 0; background: #fff; position: relative;z-index: 1
+}
+.puzzle-time .puzzle-number{ font-size: 26rpx; color: #333; line-height: 60rpx;}
+.puzzle-time .puzzle-number .em{margin:0 8rpx; color: #EC5464; font-weight: 600
+}
+.puzzle-time .puzzle-Countdown{ font-size: 24rpx;  line-height: 50rpx;}
+.puzzle-time .puzzle-details{color: #348FE2; font-size: 24rpx; line-height: 50rpx;}
+.puzzle-time .puzzle-details .span{color: #999}
+.puzzle-goto{margin-top: 20rpx; padding:16rpx 0; background: #fff; position: relative;z-index: 1;}
+.puzzle-goto .goto-btn{width: 50%; font-size: 28rpx; color: #fff; background: #EC5464; border-radius: 8rpx; display:block; height: 70rpx; line-height: 70rpx; text-align: center;border:1px #EC5464 solid; margin:8rpx auto
+}
+.puzzle-record{margin-top:24rpx; background: #fff; position: relative; z-index: 1;
+}
+.puzzle-record .h5{ height:32rpx; line-height: 32rpx; padding:15rpx; color: #999; border-bottom: 1px #e4e4e4 solid; font-size: 26rpx;}
+.puzzle-record .ul .li{ overflow: hidden; border-bottom:1px #e4e4e4 solid; padding:15rpx;
+}
+.puzzle-record .ul .li:last-child{ border-bottom:0;
+}
+.puzzle-record .ul .li .record-img{width: 70rpx; height: 70rpx;
+}
+.puzzle-record .ul .li .record-img image{height: 70rpx; width: 70rpx; border-radius: 50%;}
+.puzzle-record .ul .li .record-text{ margin-left:20rpx; -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1;}
+.puzzle-record .ul .li .record-text .p{ font-size: 24rpx;line-height: 35rpx;color: #999; -o-text-overflow: ellipsis; text-overflow: ellipsis; overflow: hidden; white-space: nowrap;}
+.puzzle-record .ul .li .record-text .p .em{ color: #999; margin-right:8rpx;
+}
+.puzzle-record .ul .li .record-text .record{color: #333; font-weight: 600; font-size:28rpx;}
+.puzzle-btn{position: fixed; left: 0; right: 0; bottom: 0; background: #fff; padding:15rpx;border-top: 1px #eee solid; z-index: 2}
+.puzzle-btn .invite-btn{-webkit-box-flex: 1;-webkit-flex: 1;-ms-flex: 1;flex: 1; font-size: 26rpx; color: #fff; background: #EC5464; border-radius: 8rpx;border:1px #EC5464 solid; height: 70rpx;}
+.puzzle-btn .order-btn{-webkit-box-flex: 1;-webkit-flex: 1;-ms-flex: 1;flex: 1; font-size: 26rpx; color: #EC5464; background: #fff; border-radius: 8rpx;border:1px #EC5464 solid; height: 70rpx; margin-left: 15rpx;}
+.showCan-mask-info{}
+.showCan-mask-info .canvas-img{width: 100%; height: 100%;display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; padding: 20rpx 0;}
+.showCan-mask-info .canvas-img image{width: 375rpx;  -webkit-box-shadow: 1px 1px 8px 0px;  box-shadow: 1px 1px 8px 0px;}
+.share-icon-text{display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap;}
+.share-icon-text .share-li{width: 25%; background: transparent;}
+.share-icon-text .share-li:after{border: 0;}
+.share-icon-text .share-li{display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column;}
+.share-icon-text .share-li .share-text{height: 60rpx; line-height: 60rpx; font-size: 24rpx; color: #ccc;}
+.share-icon-text .share-li .wwi-icon{color: #008000; font-size: 70rpx;}
+

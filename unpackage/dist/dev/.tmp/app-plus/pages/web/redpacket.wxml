@@ -1,0 +1,2 @@
+<import src="./redpacket.vue.wxml" />
+    <template is="39fca921" data="{{ ...$root['0'], $root }}"/>

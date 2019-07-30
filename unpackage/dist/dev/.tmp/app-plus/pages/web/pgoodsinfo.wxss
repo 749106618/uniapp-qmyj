@@ -1,0 +1,27 @@
+
+page{background: #f8f8f8;}
+.goods-pic{width: 100%; vertical-align: middle;}
+.padding{ background: #fff;}
+.goods-detail-name{ font-size: 36rpx;}
+.goods-detail-price{margin-top: 10rpx;}
+.goods-detail-price .dt{font-size: 40rpx; color: #ff0036; -webkit-box-align: baseline; -webkit-align-items: baseline; -ms-flex-align: baseline; align-items: baseline;}
+.goods-detail-price .dt .em{font-size: 24rpx; margin-left: 20rpx;}
+.goods-detail-price .span{font-size: 28rpx;}
+.goods-detail-item{ color: #777; -webkit-box-align: baseline; -webkit-align-items: baseline; -ms-flex-align: baseline; align-items: baseline; padding: 20rpx; border-bottom: 1px solid #eee; overflow: hidden;}
+.goods-detail-item image{width: 100%;}
+.goods-detail-item .dt{font-size: 32rpx;}
+.goods-detail-item .dd{font-size: 28rpx; font-weight: bold; margin-left: 20rpx;}
+.goods-detail-item .bt .wwi-icon{background: #000; color: #FFFFFF; border-radius:10rpx; font-size: 36rpx;}
+.goods-detail-item .bt{color: #000; font-weight: bold;}
+.goods-detail-item .li{width: 100%;}
+.goods-detail-item .li .orderPic{width: 120rpx; height: 120rpx; border-radius:50% ; border: 1px solid #eee; margin: 20rpx 0;}
+.goods-detail-item .li .orderInfo{-webkit-box-flex: 1;-webkit-flex: 1;-ms-flex: 1;flex: 1; margin-left: 20rpx; margin-top: 10rpx; border-bottom:1px solid #eee ;}
+.goods-detail-item .li .m-name{font-size: 32rpx;  color: #000;}
+.goods-detail-item .li .m-time{font-size:26rpx;}
+.bottom{position: fixed; z-index: 998; background: #fff; left: 0; right: 0; bottom: 0; height: 80rpx; border-top: 1px solid #eee;}
+.bottom .btn{background: #ff0036; color: #FFFFFF; font-weight: bold; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; font-size:32rpx;}
+.bottom .cart{width: 120rpx; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; position: relative;}
+.bottom .cart .sup{position: absolute; background: #FF0036; color: #FFFFFF; height: 24rpx;min-width: 24rpx; border-radius:50% ; padding:5rpx; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; font-size: 20rpx; top: 0; right: 10rpx;}
+.bottom .cart .wwi-icon{line-height: 48rpx;}
+.bottom .cart .span{font-size: 24rpx;line-height: 24rpx;}
+

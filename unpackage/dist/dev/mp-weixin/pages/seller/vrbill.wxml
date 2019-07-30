@@ -1,0 +1,2 @@
+<import src="./vrbill.vue.wxml" />
+    <template is="5cd70716" data="{{ ...$root['0'], $root }}"/>

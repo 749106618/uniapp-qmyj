@@ -1,0 +1,18 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "登入",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "backgroundColorTop": "#FFFFFF",
+  "backgroundColorBottom": "#FFFFFF",
+  "animationType": "slide-in-bottom",
+  "titleNView": {
+    "buttons": [
+      {
+        "float": "right",
+        "text": "注册",
+        "fontSize": "16px",
+        "color": "#cd3237"
+      }
+    ]
+  }
+}

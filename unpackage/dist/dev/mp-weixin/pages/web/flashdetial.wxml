@@ -1,0 +1,2 @@
+<import src="./flashdetial.vue.wxml" />
+    <template is="4f497419" data="{{ ...$root['0'], $root }}"/>

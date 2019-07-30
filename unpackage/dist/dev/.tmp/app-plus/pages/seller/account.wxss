@@ -1,0 +1,40 @@
+
+page{background: #F8F8F8;}
+.join-from{}
+.join-from .title{border-left: 4rpx solid #2CB476; padding-left: 20rpx; margin-left: 20rpx; color: #999; font-weight: bold;}
+.join-from .list{padding: 20rpx; background: #FFFFFF;}
+.join-from .list .border-top{border-top:1px solid #F8F8F8 ;}
+.join-from .join-input{line-height: 80rpx;}
+.join-from .join-input label{ width: 150rpx; color: #666;}
+.join-from .join-input .inp{-webkit-box-flex: 1;-webkit-flex: 1;-ms-flex: 1;flex: 1; height: auto; line-height: 50rpx; padding: 15rpx 0;}
+.join-from .join-input .inp.disabled{color: #999;}
+.join-from .join-input .inp .selec .lb{width: auto;}
+.join-from .join-input .inp .selec .lp{border: 1px solid transparent; padding: 5rpx 20rpx; margin-right:20rpx; margin-bottom: 20rpx; color: #333;}
+.join-from .join-input .inp .selec .lp.ck{color: #2CB476; border-color: #2CB476 ; border-radius: 20rpx;}
+.join-from .join-input .inp .ok{color: #2CB476;}
+.join-storeClass{padding: 20rpx; background: #ffffff;}
+.join-storeClass .btn{ font-size: 32rpx; height: 80rpx;}
+.join-storeClass .btn .wwi-icon{color: #2CB476; margin-right: 15rpx;}
+.join-storeClass .add-list{border-top: 1px solid #F8F8F8;}
+.join-storeClass .add-list .add-li{line-height: 60rpx;}
+.join-storeClass .add-list .add-li .del{color: #2CB476;}
+.btn-area{background: #FFFFFF;padding: 20rpx;}
+.btn-area .btn-s{background: #2CB476; color: #FFFFFF;}
+.select-class .li{line-height: 50rpx;}
+.select-class .li.ok{color: #2CB476;}
+.select-class .hd{width: 30%;}
+.select-class .bd{width: 30%;}
+.select-class .cd{width: 40%;}
+.join-from .join-input .inp .picList{border-bottom: 1px dashed #F8F8F8;}
+.join-from .join-input .inp .picList .sli{}
+.join-from .join-input .inp .picList .sli image{width: 100rpx; height: 100rpx; border: 1px solid #F8F8F8; margin-right: 20rpx;}
+.join-from .join-input .inp .picList .sli .text{-webkit-box-flex: 1;-webkit-flex: 1;-ms-flex: 1;flex: 1; width: auto; height: 60rpx;  border: 1px solid #F8F8F8; padding: 20rpx; font-size: 24rpx;}
+.join-from .join-input .inp .picList .sbtn{ color: #999; font-size: 24rpx;}
+.join-from .join-input .inp .picList .sbtn .sbtn-li{margin-right: 20rpx;}
+.join-from .join-input .inp .picList .sbtn .sbtn-li .wwi-icon{font-size: 40rpx;}
+.join-from .join-input .inp .picList .sbtn .sbtn-li.ok{color: #2CB476;}
+.join-from .join-input .inp .addPic{padding:0 20rpx; color: #ffffff; background: #2CB476; width: 150rpx; line-height: 60rpx; text-align: center; margin-top: 20rpx;}
+.pic-list .lt image{width: 280rpx; height: 210rpx; margin-right: 15rpx;}
+.pic-list .rt .s-btn{background: #2CB476; color: #fff; height: 60rpx; width: 180rpx; text-align: center; line-height: 60rpx;}
+.pic-list .rt .inp{border: 1px solid #ccc; padding: 10rpx;}
+
