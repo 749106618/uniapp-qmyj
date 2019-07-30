@@ -120,6 +120,15 @@
 			}
 		},
 		{
+			"path": "pages/web/pinglun_list",
+			"style": {
+				"navigationBarTitleText": "评论列表",
+				"navigationBarBackgroundColor":"#FFFFFF",
+				"backgroundColorTop": "#F8F8F8",
+				"backgroundColorBottom": "#F8F8F8"
+			}
+		},
+		{
 			"path": "pages/cart",
 			"style": {
 				"navigationBarTitleText": "购物车",
