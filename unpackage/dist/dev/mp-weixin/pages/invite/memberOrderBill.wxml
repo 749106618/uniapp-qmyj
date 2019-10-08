@@ -1,2 +1,2 @@
 <import src="./memberOrderBill.vue.wxml" />
-    <template is="55a4dcdc" data="{{ ...$root['0'], $root }}"/>
+    <template is="1bf8a31c" data="{{ ...$root['0'], $root }}"/>

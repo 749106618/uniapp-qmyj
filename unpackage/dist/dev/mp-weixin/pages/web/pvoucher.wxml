@@ -1,2 +1,0 @@
-<import src="./pvoucher.vue.wxml" />
-    <template is="3d8d3b14" data="{{ ...$root['0'], $root }}"/>

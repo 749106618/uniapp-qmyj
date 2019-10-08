@@ -1,2 +1,2 @@
 <import src="./voucherpwex.vue.wxml" />
-    <template is="0f94c13c" data="{{ ...$root['0'], $root }}"/>
+    <template is="02f04a28" data="{{ ...$root['0'], $root }}"/>

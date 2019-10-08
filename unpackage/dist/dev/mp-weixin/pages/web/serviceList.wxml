@@ -1,2 +1,0 @@
-<import src="./serviceList.vue.wxml" />
-    <template is="74328bbb" data="{{ ...$root['0'], $root }}"/>

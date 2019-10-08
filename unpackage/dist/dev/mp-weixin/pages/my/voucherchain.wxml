@@ -1,2 +1,2 @@
 <import src="./voucherchain.vue.wxml" />
-    <template is="0dc03959" data="{{ ...$root['0'], $root }}"/>
+    <template is="5c9521e2" data="{{ ...$root['0'], $root }}"/>

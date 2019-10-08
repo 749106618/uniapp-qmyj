@@ -1,2 +1,0 @@
-<import src="./pointmall.vue.wxml" />
-    <template is="2665286c" data="{{ ...$root['0'], $root }}"/>

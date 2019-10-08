@@ -1,1 +1,1 @@
-<import src="/common/slots.wxml" /><template name="2a62971c"><view class="_view M2a62971c uni-status-bar" style=" {{style}}"><template name="default"></template><template data="{{...$root['0'], ...$root[$k], $root}}" is="{{$slotdefault || 'default'}}"></template></view></template>
+<import src="/common/slots.wxml" /><template name="3e8bfc5c"><view class="_view M3e8bfc5c uni-status-bar" style=" {{style}}"><template name="default"></template><template data="{{...$root['0'], ...$root[$k], $root}}" is="{{$slotdefault || 'default'}}"></template></view></template>

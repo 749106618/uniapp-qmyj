@@ -1,1 +1,1 @@
-<template name="4c9c9246"><view class="_view M4c9c9246 nav-top-icon wwi-icon {{['wwi-icon-' + type]}}" bindtap="handleProxy" data-eventid="{{'4c9c9246-0'}}" data-comkey="{{$k}}" style=" {{('color:' + color + ';' + 'font-size:' + fontSize + ';')}}"></view></template>
+<template name="55c4e213"><view class="_view M55c4e213 nav-top-icon wwi-icon {{['wwi-icon-' + type]}}" bindtap="handleProxy" data-eventid="{{'55c4e213-0'}}" data-comkey="{{$k}}" style=" {{('color:' + color + ';' + 'font-size:' + fontSize + ';')}}"></view></template>

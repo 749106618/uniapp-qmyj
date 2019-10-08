@@ -1,2 +1,2 @@
 <import src="./memberOrder.vue.wxml" />
-    <template is="997d322a" data="{{ ...$root['0'], $root }}"/>
+    <template is="f0d26516" data="{{ ...$root['0'], $root }}"/>

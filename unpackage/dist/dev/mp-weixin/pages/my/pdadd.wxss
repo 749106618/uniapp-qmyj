@@ -1,7 +1,0 @@
-
-page{background: #FFFFFF;}
-.pdadd-input{padding: 20rpx;}
-.pdadd-input .dt{font-size: 48rpx;}
-.pdadd-input .dd{margin-left: 20rpx;}
-.pdadd-input .dd input{font-size: 42rpx;}
-

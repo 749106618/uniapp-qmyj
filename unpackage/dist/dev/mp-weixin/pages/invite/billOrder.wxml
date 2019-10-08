@@ -1,2 +1,2 @@
 <import src="./billOrder.vue.wxml" />
-    <template is="01917944" data="{{ ...$root['0'], $root }}"/>
+    <template is="8c2e7730" data="{{ ...$root['0'], $root }}"/>

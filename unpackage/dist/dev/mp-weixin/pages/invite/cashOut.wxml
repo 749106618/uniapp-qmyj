@@ -1,2 +1,2 @@
 <import src="./cashOut.vue.wxml" />
-    <template is="1be778b2" data="{{ ...$root['0'], $root }}"/>
+    <template is="2239b43c" data="{{ ...$root['0'], $root }}"/>

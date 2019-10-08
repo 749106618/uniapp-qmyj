@@ -1,2 +1,2 @@
 <import src="./redpacketpwex.vue.wxml" />
-    <template is="47fbdde6" data="{{ ...$root['0'], $root }}"/>
+    <template is="d298dbd2" data="{{ ...$root['0'], $root }}"/>

@@ -73,6 +73,12 @@
 				<view class="span">行业新闻</view>
 			</navigator>
 		</view>
+		<button
+		  type="primary"
+		  size="40"
+		  open-type="contact"
+		>联系客服
+		</button>  
 		<view class="wwi-index-kuaibao flex flexrow">
 			<view class="title flex flexrow">
 				交易快报

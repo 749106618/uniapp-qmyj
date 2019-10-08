@@ -1,2 +1,0 @@
-<import src="./vrorderlist.vue.wxml" />
-    <template is="c3e3ef2c" data="{{ ...$root['0'], $root }}"/>

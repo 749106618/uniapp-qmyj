@@ -1,2 +1,2 @@
 <import src="./rechargecardlist.vue.wxml" />
-    <template is="1ebd4cdb" data="{{ ...$root['0'], $root }}"/>
+    <template is="55d690de" data="{{ ...$root['0'], $root }}"/>

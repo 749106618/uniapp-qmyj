@@ -1,2 +1,0 @@
-<import src="./pointorder.vue.wxml" />
-    <template is="49aaec78" data="{{ ...$root['0'], $root }}"/>

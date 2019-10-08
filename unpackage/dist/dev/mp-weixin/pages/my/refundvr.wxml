@@ -1,2 +1,0 @@
-<import src="./refundvr.vue.wxml" />
-    <template is="79ebd08c" data="{{ ...$root['0'], $root }}"/>

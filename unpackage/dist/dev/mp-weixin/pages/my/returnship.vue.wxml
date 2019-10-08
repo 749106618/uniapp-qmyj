@@ -1,1 +1,0 @@
-<template name="42db451c"><view class="_view M42db451c content"><view class="_view M42db451c input-s-title">发货{{delayDay}}天后，当商家选择未收到则要进行延迟时间操作；如果超过{{confirmDay}}天不处理按弃货处理，直接由管理员确认退款。</view><view class="_view M42db451c input-group"></view><view class="_view M42db451c btn-row"><button type="primary" class="_button M42db451c primary"></button></view></view></template>

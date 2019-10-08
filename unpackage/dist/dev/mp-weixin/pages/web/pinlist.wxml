@@ -1,2 +1,0 @@
-<import src="./pinlist.vue.wxml" />
-    <template is="228f367b" data="{{ ...$root['0'], $root }}"/>

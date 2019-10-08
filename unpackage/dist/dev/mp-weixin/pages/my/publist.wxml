@@ -1,2 +1,0 @@
-<import src="./publist.vue.wxml" />
-    <template is="54766cd5" data="{{ ...$root['0'], $root }}"/>

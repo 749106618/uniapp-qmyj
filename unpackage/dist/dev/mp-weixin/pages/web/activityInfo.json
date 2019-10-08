@@ -1,8 +1,0 @@
-{
-  "usingComponents": {},
-  "navigationBarTitleText": "清单内容",
-  "enablePullDownRefresh": true,
-  "backgroundColor": "#FFFFFF",
-  "backgroundColorBottom": "#FFFFFF",
-  "backgroundColorTop": "#FFFFFF"
-}

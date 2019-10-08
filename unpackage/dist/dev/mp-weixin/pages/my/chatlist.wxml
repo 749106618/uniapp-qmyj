@@ -1,2 +1,0 @@
-<import src="./chatlist.vue.wxml" />
-    <template is="42f3ff7c" data="{{ ...$root['0'], $root }}"/>

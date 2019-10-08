@@ -7,52 +7,6 @@
 }
 
 
-.uni-numbox {display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;-webkit-box-orient: horizontal;-webkit-box-direction: normal;-webkit-flex-direction: row;-ms-flex-direction: row;flex-direction: row;-webkit-box-pack: start;-webkit-justify-content: flex-start;-ms-flex-pack: start;justify-content: flex-start;height: 25px;}
-.uni-numbox-minus,.uni-numbox-plus {margin: 0;background-color: #f7f7f7;width: 25px;height: 100%;line-height: 25px;text-align: center;color: #555555; font-size: 24rpx;}
-.uni-numbox-minus {border: 1px solid #fff;border-right: none;border-top-left-radius: 5px;border-bottom-left-radius: 5px;}
-.uni-numbox-plus {border: 1px solid #fff;border-left: none;border-top-right-radius: 5px;border-bottom-right-radius: 5px;}
-.uni-numbox-value {border: 1px solid #fff;background-color: #f7f7f7;width: 30px;height: 100%;text-align: center; font-size: 14px;}
-.uni-numbox-disabled {color: #c0c0c0; background: #fdfdfd;}
-
-
-.wwi-goods-popup{color: #21285d;}
-.wwi-goods-popup .popupMask {position: fixed;z-index: 998;top: 0;right: 0;left: 0;bottom: 0;background: rgba(0, 0, 0, 0.6);}
-.wwi-goods-popup .wwi-popup-content {position: fixed;bottom: 0;left: 0;width: 100%;-webkit-transition: all 0.3s ease;-o-transition: all 0.3s ease;transition: all 0.3s ease;-webkit-transform: translateY(100%);-ms-transform: translateY(100%);transform: translateY(100%);z-index: 999;max-height: 100%;}
-.wwi-goods-popup .wwi-popup-view-show {-webkit-transform: translateY(0);-ms-transform: translateY(0);transform: translateY(0);}
-.wwi-goods-popup .wwi-popup-view {position: relative;bottom: 0;left: 0;width: 100%;height: 238px;background-color: rgba(255, 255, 255, 1);}
-.wwi-goods-popup .wwi-popup-head {display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;padding: 25rpx 20rpx;background-color: #fff;position: relative;-webkit-box-flex: 1;-webkit-flex: 1;-ms-flex: 1;flex: 1; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between;}
-.wwi-goods-popup .wwi-popup-head .mask-goods-pic{background: #FFFFFF; border: 1px solid #eee; position: absolute; margin-top: -80rpx; border-radius:10rpx; padding: 6rpx;}
-.wwi-goods-popup .wwi-popup-head .mask-goods-pic image{width: 180rpx; vertical-align: middle; border-radius:10rpx;}
-.wwi-goods-popup .wwi-popup-head:after{ content: ''; height: 1px; position: absolute; background: #efefef; bottom: 0; left: 10rpx; right: 10rpx;}
-.wwi-goods-popup .wwi-popup-head .info{-webkit-box-flex: 1;-webkit-flex: 1;-ms-flex: 1;flex: 1; margin-left: 210rpx; min-height: 4em;}
-.wwi-goods-popup .wwi-popup-head .info .price{color: #FF0036; font-size: 40rpx; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center;}
-.wwi-goods-popup .wwi-popup-head .info .price .em{background: #FF0036; color: #FFFFFF; border-radius:14rpx; font-size: 24rpx; padding: 10rpx; height: 30rpx; line-height: 30rpx; margin-left:10rpx;}
-.wwi-goods-popup .wwi-popup-head .info .freight{ font-size: 26rpx; line-height: 35rpx; margin-top: 10rpx;}
-.wwi-goods-popup .wwi-popup-head .wwi-icon{}
-.wwi-goods-popup .wwi-popup-content .bg{background: #fff; margin-top: 80rpx;}
-.wwi-goods-popup .wwi-popup-viddle{padding:0 20rpx;}
-.wwi-goods-popup .wwi-popup-viddle .spec{padding: 15rpx 0; border-bottom: 1px solid #fdfdfd;}
-.wwi-goods-popup .wwi-popup-viddle .spec .dt{font-size: 28rpx;}
-.wwi-goods-popup .wwi-popup-viddle .spec .dd{ -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap;}
-.wwi-goods-popup .wwi-popup-viddle .spec .dd .span{background: #f9f9f9; border-radius:20rpx; margin-right: 20rpx; padding:5rpx 20rpx; margin-top: 15rpx; font-size: 24rpx; border: 1px solid #FDFDFD;}
-.wwi-goods-popup .wwi-popup-viddle .spec .dd .span.ok{color: #FF0036; border-color:#FF0036 ;}
-.wwi-goods-popup .goods-mask-num{padding: 20rpx 0; margin:0 20rpx 40rpx 20rpx; border-top:1px solid #efefef ;}
-.wwi-goods-popup .goods-mask-num .title{font-size: 28rpx;
-}
-.wwi-goods-popup .goods-mask-bottom{background: #FF0036; height: 88rpx; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; color: #FFFFFF;}
-.wwi-goods-popup .goods-mask-bottom .cart{width: 52%; background: #FF9800; height: 100%; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; font-size: 28rpx;}
-.wwi-goods-popup .goods-mask-bottom .buy{-webkit-box-flex: 1;-webkit-flex: 1;-ms-flex: 1;flex: 1; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; font-size: 28rpx;}
-.wwi-goods-popup .goods-mask-bottom .em{line-height: 35rpx; font-size: 26rpx;}
-.wwi-goods-popup .goods-mask-bottom .span{line-height: 35rpx; font-size:26rpx;}
-.wwi-goods-popup .goods-mask-bottom.no { filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale"); /* Firefox 3.5+ */ -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); -o-filter: grayscale(100%); filter: grayscale(100%); -webkit-filter: gray; filter: gray; opacity: 0.8;}
-
-
-.wwi-count-down {display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;padding: 0.05em 0;-webkit-flex-wrap: nowrap;-ms-flex-wrap: nowrap;flex-wrap: nowrap;-webkit-box-pack: center;-webkit-justify-content: center;-ms-flex-pack: center;justify-content: center;line-height: 1.01em; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center;}
-.wwi-countdown-splitor {width: auto !important;-webkit-box-pack: center;-webkit-justify-content: center;-ms-flex-pack: center;justify-content: center;padding: 0 0.125em; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; font-size: 0.6em;}
-.wwi-countdown-numbers {line-height: 1.01em;width: auto !important;padding: 0 0.25em;-webkit-box-pack: center;-webkit-justify-content: center;-ms-flex-pack: center;justify-content: center;height:1.01em;border-radius:0.25em;margin: 0 0.125em;border: 1px solid #000000; justify-content: center;}
-.wwi-countdown-numbers .fz{font-size: 0.6em;}
-
-
 .load-more {display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;-webkit-box-orient: horizontal;-webkit-box-direction: normal;-webkit-flex-direction: row;-ms-flex-direction: row;flex-direction: row;height: 80rpx;-webkit-box-align: center;-webkit-align-items: center;-ms-flex-align: center;align-items: center;-webkit-box-pack: center;-webkit-justify-content: center;-ms-flex-pack: center;justify-content: center; width: 100%;}
 .loading-img {height: 24px;width: 24px;margin-right: 10px;}
 .loading-text {font-size: 28rpx;color: #777777;}
@@ -257,6 +211,14 @@
 .wwi-payment-popup .pdShowPWD{color: #FF0036; font-size: 28rpx;}
 
 
+.uni-numbox {display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;-webkit-box-orient: horizontal;-webkit-box-direction: normal;-webkit-flex-direction: row;-ms-flex-direction: row;flex-direction: row;-webkit-box-pack: start;-webkit-justify-content: flex-start;-ms-flex-pack: start;justify-content: flex-start;height: 25px;}
+.uni-numbox-minus,.uni-numbox-plus {margin: 0;background-color: #f7f7f7;width: 25px;height: 100%;line-height: 25px;text-align: center;color: #555555; font-size: 24rpx;}
+.uni-numbox-minus {border: 1px solid #fff;border-right: none;border-top-left-radius: 5px;border-bottom-left-radius: 5px;}
+.uni-numbox-plus {border: 1px solid #fff;border-left: none;border-top-right-radius: 5px;border-bottom-right-radius: 5px;}
+.uni-numbox-value {border: 1px solid #fff;background-color: #f7f7f7;width: 30px;height: 100%;text-align: center; font-size: 14px;}
+.uni-numbox-disabled {color: #c0c0c0; background: #fdfdfd;}
+
+
 @charset "UTF-8";
 .uni-noticebar {
 	padding: 12rpx 24rpx;
@@ -405,4 +367,42 @@
 		        transform: translate3d(-100%, 0, 0)
 }
 }
+
+
+.wwi-goods-popup{color: #21285d;}
+.wwi-goods-popup .popupMask {position: fixed;z-index: 998;top: 0;right: 0;left: 0;bottom: 0;background: rgba(0, 0, 0, 0.6);}
+.wwi-goods-popup .wwi-popup-content {position: fixed;bottom: 0;left: 0;width: 100%;-webkit-transition: all 0.3s ease;-o-transition: all 0.3s ease;transition: all 0.3s ease;-webkit-transform: translateY(100%);-ms-transform: translateY(100%);transform: translateY(100%);z-index: 999;max-height: 100%;}
+.wwi-goods-popup .wwi-popup-view-show {-webkit-transform: translateY(0);-ms-transform: translateY(0);transform: translateY(0);}
+.wwi-goods-popup .wwi-popup-view {position: relative;bottom: 0;left: 0;width: 100%;height: 238px;background-color: rgba(255, 255, 255, 1);}
+.wwi-goods-popup .wwi-popup-head {display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;padding: 25rpx 20rpx;background-color: #fff;position: relative;-webkit-box-flex: 1;-webkit-flex: 1;-ms-flex: 1;flex: 1; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between;}
+.wwi-goods-popup .wwi-popup-head .mask-goods-pic{background: #FFFFFF; border: 1px solid #eee; position: absolute; margin-top: -80rpx; border-radius:10rpx; padding: 6rpx;}
+.wwi-goods-popup .wwi-popup-head .mask-goods-pic image{width: 180rpx; vertical-align: middle; border-radius:10rpx;}
+.wwi-goods-popup .wwi-popup-head:after{ content: ''; height: 1px; position: absolute; background: #efefef; bottom: 0; left: 10rpx; right: 10rpx;}
+.wwi-goods-popup .wwi-popup-head .info{-webkit-box-flex: 1;-webkit-flex: 1;-ms-flex: 1;flex: 1; margin-left: 210rpx; min-height: 4em;}
+.wwi-goods-popup .wwi-popup-head .info .price{color: #FF0036; font-size: 40rpx; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center;}
+.wwi-goods-popup .wwi-popup-head .info .price .em{background: #FF0036; color: #FFFFFF; border-radius:14rpx; font-size: 24rpx; padding: 10rpx; height: 30rpx; line-height: 30rpx; margin-left:10rpx;}
+.wwi-goods-popup .wwi-popup-head .info .freight{ font-size: 26rpx; line-height: 35rpx; margin-top: 10rpx;}
+.wwi-goods-popup .wwi-popup-head .wwi-icon{}
+.wwi-goods-popup .wwi-popup-content .bg{background: #fff; margin-top: 80rpx;}
+.wwi-goods-popup .wwi-popup-viddle{padding:0 20rpx;}
+.wwi-goods-popup .wwi-popup-viddle .spec{padding: 15rpx 0; border-bottom: 1px solid #fdfdfd;}
+.wwi-goods-popup .wwi-popup-viddle .spec .dt{font-size: 28rpx;}
+.wwi-goods-popup .wwi-popup-viddle .spec .dd{ -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap;}
+.wwi-goods-popup .wwi-popup-viddle .spec .dd .span{background: #f9f9f9; border-radius:20rpx; margin-right: 20rpx; padding:5rpx 20rpx; margin-top: 15rpx; font-size: 24rpx; border: 1px solid #FDFDFD;}
+.wwi-goods-popup .wwi-popup-viddle .spec .dd .span.ok{color: #FF0036; border-color:#FF0036 ;}
+.wwi-goods-popup .goods-mask-num{padding: 20rpx 0; margin:0 20rpx 40rpx 20rpx; border-top:1px solid #efefef ;}
+.wwi-goods-popup .goods-mask-num .title{font-size: 28rpx;
+}
+.wwi-goods-popup .goods-mask-bottom{background: #FF0036; height: 88rpx; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; color: #FFFFFF;}
+.wwi-goods-popup .goods-mask-bottom .cart{width: 52%; background: #FF9800; height: 100%; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; font-size: 28rpx;}
+.wwi-goods-popup .goods-mask-bottom .buy{-webkit-box-flex: 1;-webkit-flex: 1;-ms-flex: 1;flex: 1; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; font-size: 28rpx;}
+.wwi-goods-popup .goods-mask-bottom .em{line-height: 35rpx; font-size: 26rpx;}
+.wwi-goods-popup .goods-mask-bottom .span{line-height: 35rpx; font-size:26rpx;}
+.wwi-goods-popup .goods-mask-bottom.no { filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale"); /* Firefox 3.5+ */ -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); -o-filter: grayscale(100%); filter: grayscale(100%); -webkit-filter: gray; filter: gray; opacity: 0.8;}
+
+
+.wwi-count-down {display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;padding: 0.05em 0;-webkit-flex-wrap: nowrap;-ms-flex-wrap: nowrap;flex-wrap: nowrap;-webkit-box-pack: center;-webkit-justify-content: center;-ms-flex-pack: center;justify-content: center;line-height: 1.01em; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center;}
+.wwi-countdown-splitor {width: auto !important;-webkit-box-pack: center;-webkit-justify-content: center;-ms-flex-pack: center;justify-content: center;padding: 0 0.125em; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; font-size: 0.6em;}
+.wwi-countdown-numbers {line-height: 1.01em;width: auto !important;padding: 0 0.25em;-webkit-box-pack: center;-webkit-justify-content: center;-ms-flex-pack: center;justify-content: center;height:1.01em;border-radius:0.25em;margin: 0 0.125em;border: 1px solid #000000; justify-content: center;}
+.wwi-countdown-numbers .fz{font-size: 0.6em;}
 

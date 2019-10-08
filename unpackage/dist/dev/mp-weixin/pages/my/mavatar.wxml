@@ -1,2 +1,0 @@
-<import src="./mavatar.vue.wxml" />
-    <template is="d6906880" data="{{ ...$root['0'], $root }}"/>

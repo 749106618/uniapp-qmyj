@@ -1,2 +1,0 @@
-<import src="./pgoodscart.vue.wxml" />
-    <template is="e55d0d84" data="{{ ...$root['0'], $root }}"/>

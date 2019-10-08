@@ -1,2 +1,2 @@
 <import src="./picadd.vue.wxml" />
-    <template is="521b752a" data="{{ ...$root['0'], $root }}"/>
+    <template is="63a2bf40" data="{{ ...$root['0'], $root }}"/>

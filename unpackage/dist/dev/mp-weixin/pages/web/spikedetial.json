@@ -1,8 +1,0 @@
-{
-  "usingComponents": {},
-  "onReachBottomDistance": 80,
-  "backgroundColor": "#FFFFFF",
-  "backgroundColorTop": "#FFFFFF",
-  "backgroundColorBottom": "#FFFFFF",
-  "navigationBarTitleText": "秒杀详情"
-}
